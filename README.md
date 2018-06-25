@@ -6,8 +6,8 @@ Scoring Engine for NetKotH where KotH stands for King of the Hill.
  
 More information at: https://netkoth.github.io
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<< TBD: This README would normally document whatever steps are 
+   necessary to get the application up and running. >>
 
 ## Set up/Deploying as Admin for an Event
 
@@ -33,9 +33,9 @@ application up and running.
 
  * << TBD: VM Info >>
 
-## TODOs
+## TODOs/Problems
 
- * << TBD: List of Known TODOs >>
+ * << TBD: List of Known TODOs/Problems >>
 
 ## DISCUSSION
 
