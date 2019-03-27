@@ -11,9 +11,9 @@ gem 'sqlite3'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
-gem 'coffee-rails'
+gem 'coffee-rails', git: 'https://github.com/rails/coffee-rails'
 gem 'turbolinks'
-gem 'jbuilder'
+gem 'jbuilder', git: 'https://github.com/rails/jbuilder'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
