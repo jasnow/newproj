@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/rails/jbuilder
-  revision: b1c9e5178ebe1d1ab9260f9b64dbec6fd4cae3cb
+  revision: 7ff5e25bce45d13282133ed1aab122cc050d396e
   specs:
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
