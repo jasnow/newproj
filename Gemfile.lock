@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/rails/coffee-rails
-  revision: 5df5816588d0c3b903ca6b7f35ebe0d5645baf71
-  specs:
-    coffee-rails (4.2.2)
-      coffee-script (>= 2.2.0)
-      railties (>= 5.2.0)
-
-GIT
   remote: https://github.com/rails/jbuilder
   revision: 7ff5e25bce45d13282133ed1aab122cc050d396e
   specs:
@@ -86,6 +78,9 @@ GEM
       xpath (~> 3.2)
     childprocess (1.0.1)
       rake (< 13.0)
+    coffee-rails (5.0.0)
+      coffee-script (>= 2.2.0)
+      railties (>= 5.2.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -212,7 +207,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara
-  coffee-rails!
+  coffee-rails
   jbuilder!
   listen
   puma
