@@ -11,7 +11,6 @@ gem 'sqlite3'
 gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
-gem 'coffee-rails'
 gem 'turbolinks'
 gem 'jbuilder', git: 'https://github.com/rails/jbuilder'
 
