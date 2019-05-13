@@ -12,7 +12,7 @@ gem 'puma'
 gem 'sass-rails'
 gem 'uglifier'
 gem 'turbolinks'
-gem 'jbuilder', git: 'https://github.com/rails/jbuilder'
+gem 'jbuilder'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

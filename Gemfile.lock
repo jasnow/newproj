@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/rails/jbuilder
-  revision: 2afb88129c9d3fcd7977ae65cb26fca1b0f52b99
-  specs:
-    jbuilder (2.8.0)
-      activesupport (>= 4.2.0)
-      multi_json (>= 1.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -88,6 +80,8 @@ GEM
       activesupport (>= 4.2.0)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
+    jbuilder (2.9.0)
+      activesupport (>= 4.2.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -104,7 +98,6 @@ GEM
     mini_mime (1.0.1)
     mini_portile2 (2.4.0)
     minitest (5.11.3)
-    multi_json (1.13.1)
     nio4r (2.3.1)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
@@ -201,7 +194,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara
-  jbuilder!
+  jbuilder
   listen
   puma
   rails (= 6.0.0.rc1)
