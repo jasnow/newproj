@@ -9,7 +9,7 @@ gem 'rails', '6.0.0.rc1'
 
 gem 'sqlite3'
 gem 'puma'
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'uglifier'
 gem 'turbolinks'
 gem 'jbuilder'
