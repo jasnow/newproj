@@ -71,7 +71,7 @@ GEM
       xpath (~> 3.2)
     childprocess (3.0.0)
     concurrent-ruby (1.1.5)
-    crass (1.0.4)
+    crass (1.0.5)
     erubi (1.9.0)
     execjs (2.7.0)
     ffi (1.11.1)
@@ -203,4 +203,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.1.0.pre.1
+   2.1.0.pre.2
