@@ -136,7 +136,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (1.6.0)
-    rubyzip (2.0.0)
+    rubyzip (2.1.0)
     sassc (2.2.1)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
