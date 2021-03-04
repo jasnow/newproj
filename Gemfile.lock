@@ -99,7 +99,7 @@ GEM
     mimemagic (0.3.5)
     mini_mime (1.0.2)
     minitest (5.14.4)
-    nio4r (2.5.5)
+    nio4r (2.5.7)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.11.1-x86_64-linux)
@@ -209,4 +209,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.2.12
+   2.2.13
