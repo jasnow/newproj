@@ -5,7 +5,7 @@ gem 'rails', '6.1.4'
 gem 'sqlite3'
 gem 'puma'
 gem 'sassc-rails'
-gem 'uglifier'
+gem 'terser'
 gem 'turbolinks'
 gem 'jbuilder'
 
