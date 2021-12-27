@@ -16,5 +16,7 @@ module Newproj
     # -- all .rb files in that directory are automatically loaded.
 
     config.generators.javascript_engine = :js
+
+    config.active_record.legacy_connection_handling = false
   end
 end
