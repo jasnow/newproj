@@ -11,7 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'debug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'listen'
