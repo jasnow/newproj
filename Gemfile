@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-#gem 'rails', '7.0.0'
-gem "rails", github: "rails/rails", branch: "7-0-stable"
+gem 'rails', '7.0.1'
 
 gem 'sqlite3'
 gem 'puma'
