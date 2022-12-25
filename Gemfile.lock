@@ -83,8 +83,6 @@ GEM
     crass (1.0.6)
     date (3.3.3)
     debug (1.7.1)
-      irb (>= 1.5.0)
-      reline (>= 0.3.1)
     erubi (1.12.0)
     execjs (2.8.1)
     ffi (1.15.5)
@@ -92,9 +90,6 @@ GEM
       activesupport (>= 5.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    io-console (0.6.0)
-    irb (1.6.2)
-      reline (>= 0.3.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
@@ -113,7 +108,7 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.0)
+    mini_portile2 (2.8.1)
     minitest (5.16.3)
     net-imap (0.3.4)
       date
@@ -166,8 +161,6 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.6.1)
-    reline (0.3.2)
-      io-console (~> 0.5)
     rexml (3.2.5)
     rubyzip (2.3.2)
     sassc (2.4.0)
@@ -236,4 +229,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.4.0
+   2.4.1
