@@ -23,6 +23,13 @@ group :development do
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "strong_password"
+gem "password_blocklist"
+gem "pwned"
+gem "devise-pwned_password"
+gem "rodauth"
+
 #######################################################################
 # 1/18/2023: Gems from https://evilmartians.com/chronicles/
 # gemfile-of-dreams-libraries-we-use-to-build-rails-apps
