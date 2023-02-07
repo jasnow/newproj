@@ -16,6 +16,10 @@ group :development, :test do
   gem "listen"
   gem "spring"
   #  gem 'spring-watcher-listen' # 12/27/2021: Last version: 2016
+
+  gem "standard"
+  gem "ruby_audit"
+  gem "spektr"
 end
 
 group :development do
@@ -93,7 +97,6 @@ gem "sidekiq-limit_fetch"
 gem "site_prism"
 
 gem "stackprof"
-gem "standard", group: [:development, :test]
 gem "store_attribute"
 gem "store_model"
 gem "strong_migrations"
