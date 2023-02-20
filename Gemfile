@@ -10,7 +10,6 @@ gem "turbolinks"
 gem "jbuilder"
 
 group :development, :test do
-  gem "debug", platforms: [:mri, :mingw, :x64_mingw]
   gem "capybara"
   gem "selenium-webdriver"
   gem "listen"
