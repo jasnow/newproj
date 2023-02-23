@@ -214,6 +214,7 @@ GEM
     faraday-http-cache (2.4.1)
       faraday (>= 0.8)
     faraday-net_http (3.0.2)
+    faraday-retry (1.0.3)
     fattr (2.4.0)
     feature_toggles (1.2.1)
     ferrum (0.13)
@@ -713,6 +714,7 @@ DEPENDENCIES
   evil-seed
   factory_bot
   faktory_worker_ruby
+  faraday-retry
   feature_toggles
   fuubar
   fx
