@@ -120,3 +120,5 @@ gem "zonebie"
 # FUND: "bundle fund" gem 'test-prof'
 # Requires SSL CERT:  gem 'sorcery'
 # Require external interface: gem 'coverband'
+
+gem 'simplecov', require: false, group: :test
