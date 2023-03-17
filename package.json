@@ -2,7 +2,7 @@
   "name": "newproj",
   "private": true,
   "devDependencies": {
-    "vite": "^4.0.0",
-    "vite-plugin-ruby": "^3.1.2"
+    "vite": "^4.2.0",
+    "vite-plugin-ruby": "^3.2.0"
   }
 }
