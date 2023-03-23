@@ -340,7 +340,7 @@ GEM
       timeout
     net-smtp (0.3.3)
       net-protocol
-    next_rails (1.2.1)
+    next_rails (1.2.2)
       colorize (>= 0.8.1)
     nio4r (2.5.8)
     no_proxy_fix (0.1.2)
@@ -364,7 +364,7 @@ GEM
     pastel (0.8.0)
       tty-color (~> 0.5)
     path_expander (1.1.1)
-    premailer (1.20.0)
+    premailer (1.21.0)
       addressable
       css_parser (>= 1.12.0)
       htmlentities (>= 4.0.0)
@@ -444,7 +444,7 @@ GEM
     rexml (3.2.5)
     roda (3.66.0)
       rack
-    rodauth (2.28.0)
+    rodauth (2.29.0)
       roda (>= 2.6.0)
       sequel (>= 4)
     rouge (4.1.0)
@@ -591,11 +591,11 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.6.1-x86_64-darwin)
     sqlite3 (1.6.1-x86_64-linux)
-    stackprof (0.2.23)
-    standard (1.25.2)
+    stackprof (0.2.24)
+    standard (1.25.3)
       language_server-protocol (~> 3.17.0.2)
-      rubocop (= 1.48.1)
-      rubocop-performance (= 1.16.0)
+      rubocop (~> 1.48.1)
+      rubocop-performance (~> 1.16.0)
     store_attribute (1.1.0)
       activerecord (>= 6.0)
     store_model (1.6.2)
@@ -789,4 +789,4 @@ DEPENDENCIES
   zonebie
 
 BUNDLED WITH
-   2.4.8
+   2.4.9
