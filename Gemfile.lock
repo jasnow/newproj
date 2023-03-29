@@ -93,6 +93,7 @@ GEM
       sinatra
       thor
       tilt
+    awesome_print (1.9.2)
     bcrypt (3.1.18)
     benchmark-ips (2.12.0)
     bindex (0.8.1)
@@ -252,6 +253,10 @@ GEM
       ruby-next (>= 0.10.0)
     graphql-persisted_queries (1.7.0)
       graphql (>= 1.12)
+    grit (2.5.0)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+      posix-spawn (~> 0.3.6)
     groupdate (6.2.0)
       activesupport (>= 5.2)
     haml (6.1.1)
@@ -277,6 +282,10 @@ GEM
     jwt (2.7.0)
     jwt_sessions (3.1.0)
       jwt (~> 2.6, < 3)
+    karo (2.3.0)
+      awesome_print
+      grit
+      thor
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -323,10 +332,11 @@ GEM
     matrix (0.4.2)
     memory_profiler (1.0.1)
     method_source (1.0.0)
+    mime-types (1.25.1)
     mini_histogram (0.3.1)
     mini_mime (1.1.2)
     minitest (5.18.0)
-    msgpack (1.6.1)
+    msgpack (1.7.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     n_plus_one_control (0.7.1)
@@ -364,6 +374,7 @@ GEM
     pastel (0.8.0)
       tty-color (~> 0.5)
     path_expander (1.1.1)
+    posix-spawn (0.3.15)
     premailer (1.21.0)
       addressable
       css_parser (>= 1.12.0)
@@ -373,7 +384,7 @@ GEM
       net-smtp
       premailer (~> 1.7, >= 1.7.9)
     public_suffix (5.0.1)
-    puma (6.1.1)
+    puma (6.2.0)
       nio4r (~> 2.0)
     pwned (2.0.2)
     raabro (1.4.0)
@@ -530,7 +541,7 @@ GEM
       redlock
       rufus-scheduler (~> 3.0)
       thor
-    selenium-webdriver (4.8.3)
+    selenium-webdriver (4.8.6)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -734,6 +745,7 @@ DEPENDENCIES
   isolator
   jbuilder
   jwt_sessions
+  karo
   listen
   lograge
   lookbook

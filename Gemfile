@@ -108,6 +108,9 @@ gem "yabeda-puma-plugin"
 gem "yabeda-sidekiq"
 gem "zonebie"
 
+# Added 3/29/2023
+gem "karo"
+
 # #HID: gem 'activerecord-postgres_enum'
 # #HID: gem 'pg'
 # #HID: gem 'pg_search'
