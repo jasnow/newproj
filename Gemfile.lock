@@ -83,7 +83,7 @@ GEM
     ar_lazy_preload (2.0.0)
     arrayfields (4.9.2)
     ast (2.4.2)
-    attractor (2.4.0)
+    attractor (2.5.0)
       churn (>= 1.0.4)
       descriptive_statistics
       flog (~> 4.0)
@@ -499,7 +499,7 @@ GEM
     rubocop-performance (1.16.0)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
-    rubocop-rails (2.19.0)
+    rubocop-rails (2.19.1)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
