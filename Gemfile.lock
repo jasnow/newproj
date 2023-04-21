@@ -350,7 +350,7 @@ GEM
       timeout
     net-smtp (0.3.3)
       net-protocol
-    next_rails (1.2.3)
+    next_rails (1.2.4)
       colorize (>= 0.8.1)
     nio4r (2.5.9)
     no_proxy_fix (0.1.2)
@@ -494,7 +494,7 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.28.0)
       parser (>= 3.2.1.0)
-    rubocop-capybara (2.17.1)
+    rubocop-capybara (2.18.0)
       rubocop (~> 1.41)
     rubocop-performance (1.16.0)
       rubocop (>= 1.7.0, < 2.0)
@@ -541,7 +541,7 @@ GEM
       redlock
       rufus-scheduler (~> 3.0)
       thor
-    selenium-webdriver (4.8.6)
+    selenium-webdriver (4.9.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
