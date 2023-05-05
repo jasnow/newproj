@@ -78,7 +78,7 @@ GEM
       activerecord (>= 4.2)
       activesupport
     alba (2.3.0)
-    anyway_config (2.4.0)
+    anyway_config (2.4.1)
       ruby-next-core (>= 0.14.0)
     ar_lazy_preload (2.0.0)
     arrayfields (4.9.2)
@@ -503,7 +503,7 @@ GEM
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
-    rubocop-rspec (2.20.0)
+    rubocop-rspec (2.21.0)
       rubocop (~> 1.33)
       rubocop-capybara (~> 2.17)
     ruby-next (0.15.3)
