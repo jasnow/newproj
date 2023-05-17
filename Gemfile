@@ -94,7 +94,7 @@ gem "sidekiq"
 gem "sidekiq-grouping"
 gem "sidekiq-limit_fetch"
 
-gem "site_prism"
+gem "site_prism", git: "https://github.com/site-prism/site_prism", branch: "main"
 
 gem "stackprof"
 gem "store_attribute"
