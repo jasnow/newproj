@@ -550,7 +550,7 @@ GEM
       websocket (~> 1.0)
     sequel (5.68.0)
     sexp_processor (4.17.0)
-    sidekiq (7.1.0)
+    sidekiq (7.1.1)
       concurrent-ruby (< 2)
       connection_pool (>= 2.3.0)
       rack (>= 2.2.4)
