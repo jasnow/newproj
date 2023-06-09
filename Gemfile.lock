@@ -368,8 +368,9 @@ GEM
       activesupport
       oj (> 3.11.0, < 4.0.0)
     parallel (1.23.0)
-    parser (3.2.2.1)
+    parser (3.2.2.3)
       ast (~> 2.4.1)
+      racc
     password_blocklist (0.5.0)
     pastel (0.8.0)
       tty-color (~> 0.5)
@@ -442,7 +443,7 @@ GEM
       connection_pool
     redis-mutex (4.0.2)
       redis-classy (~> 2.0)
-    redis-namespace (1.10.0)
+    redis-namespace (1.11.0)
       redis (>= 4)
     redlock (2.0.1)
       redis-client
@@ -525,7 +526,7 @@ GEM
     ruby_parser (3.20.2)
       sexp_processor (~> 4.16)
     rubyzip (2.3.2)
-    rufus-scheduler (3.9.0)
+    rufus-scheduler (3.9.1)
       fugit (~> 1.1, >= 1.1.6)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -541,7 +542,7 @@ GEM
     scenic (1.7.0)
       activerecord (>= 4.0.0)
       railties (>= 4.0.0)
-    schked (1.1.2)
+    schked (1.2.0)
       redlock
       rufus-scheduler (~> 3.0)
       thor
