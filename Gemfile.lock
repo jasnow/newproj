@@ -445,8 +445,8 @@ GEM
       redis-classy (~> 2.0)
     redis-namespace (1.11.0)
       redis (>= 4)
-    redlock (2.0.1)
-      redis-client
+    redlock (2.0.2)
+      redis-client (~> 0.14.1)
     regexp_parser (2.8.1)
     request_store (1.5.1)
       rack (>= 1.4)
