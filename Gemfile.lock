@@ -335,6 +335,7 @@ GEM
     mime-types (1.25.1)
     mini_histogram (0.3.1)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.2)
     minitest (5.18.1)
     msgpack (1.7.1)
     mustermann (3.0.0)
@@ -354,6 +355,9 @@ GEM
       colorize (>= 0.8.1)
     nio4r (2.5.9)
     no_proxy_fix (0.1.2)
+    nokogiri (1.15.3)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
     nokogiri (1.15.3-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.15.3-x86_64-linux)
@@ -606,6 +610,8 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+    sqlite3 (1.6.3)
+      mini_portile2 (~> 2.8.0)
     sqlite3 (1.6.3-x86_64-darwin)
     sqlite3 (1.6.3-x86_64-linux)
     stackprof (0.2.25)
@@ -716,6 +722,7 @@ GEM
     zonebie (0.6.1)
 
 PLATFORMS
+  ruby
   x86_64-darwin-16
   x86_64-linux
 
