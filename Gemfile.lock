@@ -72,12 +72,12 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.4)
+    addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
     after_commit_everywhere (1.3.1)
       activerecord (>= 4.2)
       activesupport
-    alba (2.3.0)
+    alba (2.4.1)
     anyway_config (2.5.0)
       ruby-next-core (>= 0.14.0)
     ar_lazy_preload (2.0.0)
@@ -393,7 +393,7 @@ GEM
     rack (2.2.8)
     rack-livereload (0.5.1)
       rack
-    rack-mini-profiler (3.1.0)
+    rack-mini-profiler (3.1.1)
       rack (>= 1.2.0)
     rack-protection (3.0.6)
       rack
@@ -415,7 +415,7 @@ GEM
       activesupport (= 7.0.6)
       bundler (>= 1.15.0)
       railties (= 7.0.6)
-    rails-dom-testing (2.1.1)
+    rails-dom-testing (2.2.0)
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
@@ -440,14 +440,14 @@ GEM
       redis-client (>= 0.9.0)
     redis-classy (2.4.1)
       redis-namespace (~> 1.0)
-    redis-client (0.14.1)
+    redis-client (0.15.0)
       connection_pool
     redis-mutex (4.0.2)
       redis-classy (~> 2.0)
     redis-namespace (1.11.0)
       redis (>= 4)
-    redlock (2.0.2)
-      redis-client (~> 0.14.1)
+    redlock (2.0.1)
+      redis-client
     regexp_parser (2.8.1)
     request_store (1.5.1)
       rack (>= 1.4)
@@ -551,7 +551,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sequel (5.70.0)
+    sequel (5.71.0)
     sexp_processor (4.17.0)
     sidekiq (7.1.2)
       concurrent-ruby (< 2)
@@ -713,7 +713,7 @@ GEM
       sidekiq
       yabeda (~> 0.6)
     yard (0.9.34)
-    zeitwerk (2.6.10)
+    zeitwerk (2.6.11)
     zonebie (0.6.1)
 
 PLATFORMS
