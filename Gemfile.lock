@@ -78,7 +78,7 @@ GEM
       activerecord (>= 4.2)
       activesupport
     alba (2.4.1)
-    anyway_config (2.5.0)
+    anyway_config (2.5.1)
       ruby-next-core (>= 0.14.0)
     ar_lazy_preload (2.0.0)
     arrayfields (4.9.2)
