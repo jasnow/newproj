@@ -183,7 +183,7 @@ GEM
       activerecord (>= 4.2, < 8)
     docile (1.4.0)
     dry-cli (1.0.0)
-    dry-core (1.0.0)
+    dry-core (1.0.1)
       concurrent-ruby (~> 1.0)
       zeitwerk (~> 2.6)
     dry-effects (0.4.0)
@@ -395,8 +395,8 @@ GEM
       rack
     rack-mini-profiler (3.1.1)
       rack (>= 1.2.0)
-    rack-protection (3.0.6)
-      rack
+    rack-protection (3.1.0)
+      rack (~> 2.2, >= 2.2.4)
     rack-proxy (0.7.6)
       rack
     rack-test (2.1.0)
@@ -570,10 +570,10 @@ GEM
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.12.3)
     simplecov_json_formatter (0.1.4)
-    sinatra (3.0.6)
+    sinatra (3.1.0)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
-      rack-protection (= 3.0.6)
+      rack-protection (= 3.1.0)
       tilt (~> 2.0)
     site_prism (4.0.3)
       addressable (~> 2.8)
