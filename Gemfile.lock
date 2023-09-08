@@ -338,7 +338,7 @@ GEM
     mini_histogram (0.3.1)
     mini_mime (1.1.5)
     mini_portile2 (2.8.4)
-    minitest (5.19.0)
+    minitest (5.20.0)
     msgpack (1.7.2)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
@@ -547,8 +547,9 @@ GEM
     scenic (1.7.0)
       activerecord (>= 4.0.0)
       railties (>= 4.0.0)
-    schked (1.2.0)
-      redlock
+    schked (1.3.0)
+      connection_pool (~> 2.0)
+      redlock (> 1.0, < 3.0)
       rufus-scheduler (~> 3.0)
       thor
     selenium-webdriver (4.12.0)
