@@ -59,6 +59,7 @@ gem "alba"
 gem "anyway_config"
 gem "ar_lazy_preload"
 gem "attractor"
+gem 'sinatra', '~> 2.0.0.beta2'
 gem "cuprite"
 gem "danger"
 gem "database_validations"
