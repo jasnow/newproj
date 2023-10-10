@@ -360,7 +360,7 @@ GEM
     mutex_m (0.1.2)
     n_plus_one_control (0.7.1)
     nap (1.1.0)
-    net-imap (0.4.0)
+    net-imap (0.4.1)
       date
       net-protocol
     net-pop (0.1.2)
@@ -580,14 +580,14 @@ GEM
       redlock (> 1.0, < 3.0)
       rufus-scheduler (~> 3.0)
       thor
-    selenium-webdriver (4.13.1)
+    selenium-webdriver (4.14.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
     sequel (5.73.0)
       bigdecimal
     sexp_processor (4.17.0)
-    sidekiq (7.1.5)
+    sidekiq (7.1.6)
       concurrent-ruby (< 2)
       connection_pool (>= 2.3.0)
       rack (>= 2.2.4)
