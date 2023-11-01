@@ -410,7 +410,7 @@ GEM
       nio4r (~> 2.0)
     pwned (2.0.2)
     raabro (1.4.0)
-    racc (1.7.1)
+    racc (1.7.2)
     rack (2.2.8)
     rack-livereload (0.5.1)
       rack
@@ -581,11 +581,11 @@ GEM
       redlock (> 1.0, < 3.0)
       rufus-scheduler (~> 3.0)
       thor
-    selenium-webdriver (4.14.0)
+    selenium-webdriver (4.15.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sequel (5.73.0)
+    sequel (5.74.0)
       bigdecimal
     sexp_processor (4.17.0)
     sidekiq (7.2.0)
