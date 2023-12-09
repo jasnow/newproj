@@ -81,7 +81,7 @@ GEM
       minitest (>= 5.1)
       mutex_m
       tzinfo (~> 2.0)
-    addressable (2.8.5)
+    addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
     after_commit_everywhere (1.3.1)
       activerecord (>= 4.2)
@@ -274,7 +274,7 @@ GEM
       posix-spawn (~> 0.3.6)
     groupdate (6.4.0)
       activesupport (>= 6.1)
-    haml (6.2.3)
+    haml (6.2.4)
       temple (>= 0.8.2)
       thor
       tilt
@@ -381,7 +381,8 @@ GEM
     octokit (8.0.0)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
-    oj (3.16.1)
+    oj (3.16.2)
+      bigdecimal (~> 3.1)
     open4 (1.3.4)
     orm_adapter (0.5.0)
     panko_serializer (0.8.1)
@@ -415,7 +416,7 @@ GEM
     rack (2.2.8)
     rack-livereload (0.5.1)
       rack
-    rack-mini-profiler (3.2.0)
+    rack-mini-profiler (3.3.0)
       rack (>= 1.2.0)
     rack-protection (2.0.8.1)
       rack
@@ -470,7 +471,7 @@ GEM
       redis-client (>= 0.17.0)
     redis-classy (2.4.1)
       redis-namespace (~> 1.0)
-    redis-client (0.18.0)
+    redis-client (0.19.0)
       connection_pool
     redis-mutex (4.0.2)
       redis-classy (~> 2.0)
