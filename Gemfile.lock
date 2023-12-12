@@ -195,7 +195,6 @@ GEM
     docile (1.4.0)
     drb (2.2.0)
       ruby2_keywords
-    dry-cli (1.0.0)
     dry-core (1.0.1)
       concurrent-ruby (~> 1.0)
       zeitwerk (~> 2.6)
@@ -419,8 +418,6 @@ GEM
     rack-mini-profiler (3.3.0)
       rack (>= 1.2.0)
     rack-protection (2.0.8.1)
-      rack
-    rack-proxy (0.7.7)
       rack
     rack-session (1.0.2)
       rack (< 3)
@@ -711,13 +708,6 @@ GEM
     view_component-contrib (0.2.2)
       ruby-next-core (>= 0.15.0)
       view_component
-    vite_rails (3.0.17)
-      railties (>= 5.1, < 8)
-      vite_ruby (~> 3.0, >= 3.2.2)
-    vite_ruby (3.5.0)
-      dry-cli (>= 0.7, < 2)
-      rack-proxy (~> 0.6, >= 0.6.1)
-      zeitwerk (~> 2.2)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.2.1)
@@ -845,7 +835,6 @@ DEPENDENCIES
   vcr
   view_component
   view_component-contrib
-  vite_rails
   web-console
   webmock
   with_model
