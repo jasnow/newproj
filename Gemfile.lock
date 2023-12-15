@@ -105,7 +105,7 @@ GEM
     awesome_print (1.9.2)
     base64 (0.2.0)
     bcrypt (3.1.20)
-    benchmark-ips (2.12.0)
+    benchmark-ips (2.13.0)
     bigdecimal (3.1.5)
     bindex (0.8.1)
     bootsnap (1.17.0)
@@ -150,7 +150,7 @@ GEM
     cuprite (0.15)
       capybara (~> 3.0)
       ferrum (~> 0.14.0)
-    danger (9.4.1)
+    danger (9.4.2)
       claide (~> 1.0)
       claide-plugins (>= 0.9.2)
       colored2 (~> 3.1)
@@ -161,7 +161,7 @@ GEM
       kramdown (~> 2.3)
       kramdown-parser-gfm (~> 1.0)
       no_proxy_fix
-      octokit (>= 6.0)
+      octokit (>= 4.0)
       terminal-table (>= 1, < 4)
     database_validations (1.1.1)
       activerecord (>= 4.2.0)
@@ -277,7 +277,7 @@ GEM
       temple (>= 0.8.2)
       thor
       tilt
-    hashdiff (1.0.1)
+    hashdiff (1.1.0)
     heapy (0.2.0)
       thor
     hirb (0.7.3)
@@ -287,7 +287,7 @@ GEM
       concurrent-ruby (~> 1.0)
     imgproxy (2.1.0)
       anyway_config (>= 2.0.0)
-    io-console (0.6.0)
+    io-console (0.7.0)
     irb (1.10.1)
       rdoc
       reline (>= 0.3.8)
@@ -486,7 +486,7 @@ GEM
       railties (>= 5.2)
     retriable (3.1.2)
     rexml (3.2.6)
-    roda (3.74.0)
+    roda (3.75.0)
       rack
     rodauth (2.32.0)
       roda (>= 2.6.0)
