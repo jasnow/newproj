@@ -287,7 +287,7 @@ GEM
       concurrent-ruby (~> 1.0)
     imgproxy (2.1.0)
       anyway_config (>= 2.0.0)
-    io-console (0.7.0)
+    io-console (0.7.1)
     irb (1.10.1)
       rdoc
       reline (>= 0.3.8)
@@ -387,7 +387,7 @@ GEM
     panko_serializer (0.8.1)
       activesupport
       oj (> 3.11.0, < 4.0.0)
-    parallel (1.23.0)
+    parallel (1.24.0)
     parser (3.2.2.4)
       ast (~> 2.4.1)
       racc
@@ -461,7 +461,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rchardet (1.8.0)
-    rdoc (6.6.1)
+    rdoc (6.6.2)
       psych (>= 4.0.0)
     redcarpet (3.6.0)
     redis (5.0.8)
@@ -535,7 +535,7 @@ GEM
     rubocop-performance (1.19.1)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
-    rubocop-rails (2.22.2)
+    rubocop-rails (2.23.0)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
@@ -843,4 +843,4 @@ DEPENDENCIES
   zonebie
 
 BUNDLED WITH
-   2.5.0.dev
+   2.5.1
