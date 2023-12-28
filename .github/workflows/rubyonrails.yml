@@ -21,7 +21,7 @@ jobs:
       - name:
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.0-rc1"
+          ruby-version: "3.3.0"
           bundler-cache: true
 
       - name:
@@ -42,5 +42,5 @@ jobs:
       - name: Install Ruby and gems
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.0-rc1"
+          ruby-version: "3.3.0"
           bundler-cache: true
