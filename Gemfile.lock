@@ -601,7 +601,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sequel (5.75.0)
+    sequel (5.76.0)
       bigdecimal
     sexp_processor (4.17.0)
     sidekiq (7.2.0)
