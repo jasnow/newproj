@@ -59,7 +59,7 @@ gem "alba"
 gem "anyway_config", "2.5.4" # 12/29/2023: LOCKED DOWN - https://github.com/palkan/anyway_config/issues/144
 gem "ar_lazy_preload"
 gem "attractor"
-gem 'sinatra', '~> 2.0.0.beta2'
+gem 'sinatra'
 gem "cuprite"
 gem "danger"
 gem "database_validations"
