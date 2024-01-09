@@ -56,7 +56,7 @@ gem "action_policy"
 gem "action_policy-graphql"
 gem "after_commit_everywhere"
 gem "alba"
-gem "anyway_config", "2.5.4" # 12/29/2023: LOCKED DOWN - https://github.com/palkan/anyway_config/issues/144
+gem "anyway_config"
 gem "ar_lazy_preload"
 gem "attractor"
 gem 'sinatra'
