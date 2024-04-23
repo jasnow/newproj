@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem "rails", "7.1.3.2"
 
-gem "sqlite3"
+gem "sqlite3", "~> 1.4"
 gem "puma"
 gem "sassc-rails"
 gem "terser"
