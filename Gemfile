@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "rails", "7.2.0.beta2"
+gem 'net-pop', github: 'ruby/net-pop' # 6/28/2024: Required for RUBY 3.3.3
 
 gem "sqlite3", "~> 1.4"
 gem "puma"
@@ -68,6 +69,7 @@ gem "dry-initializer"
 gem "dry-monads"
 gem "evil-seed"
 gem "faraday-retry"
+gem "faraday-multipart"
 gem "fx"
 gem "graphql"
 gem "graphql-connections"

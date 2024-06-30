@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/ruby/net-pop.git
+  revision: e8d0afe2773b9eb6a23c39e9e437f6fc0fc7c733
+  specs:
+    net-pop (0.1.2)
+      net-protocol
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -220,6 +227,8 @@ GEM
       faraday-net_http (>= 2.0, < 3.2)
     faraday-http-cache (2.5.1)
       faraday (>= 0.8)
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
     faraday-net_http (3.1.0)
       net-http
     faraday-retry (2.2.1)
@@ -362,8 +371,9 @@ GEM
     mini_histogram (0.3.1)
     mini_mime (1.1.5)
     mini_portile2 (2.8.7)
-    minitest (5.24.0)
+    minitest (5.24.1)
     msgpack (1.7.2)
+    multipart-post (2.4.1)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     n_plus_one_control (0.7.1)
@@ -372,8 +382,6 @@ GEM
       uri
     net-imap (0.4.14)
       date
-      net-protocol
-    net-pop (0.1.2)
       net-protocol
     net-protocol (0.2.2)
       timeout
@@ -536,7 +544,7 @@ GEM
     rubocop-performance (1.21.1)
       rubocop (>= 1.48.1, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
-    rubocop-rails (2.25.0)
+    rubocop-rails (2.25.1)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
@@ -800,6 +808,7 @@ DEPENDENCIES
   evil-seed
   factory_bot
   faktory_worker_ruby
+  faraday-multipart
   faraday-retry
   feature_toggles
   fuubar
@@ -818,6 +827,7 @@ DEPENDENCIES
   lograge
   lookbook
   n_plus_one_control
+  net-pop!
   next_rails
   oj
   panko_serializer
