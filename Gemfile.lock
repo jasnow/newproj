@@ -266,7 +266,7 @@ GEM
       rchardet (~> 1.8)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.3.10)
+    graphql (2.3.11)
       base64
     graphql-connections (1.4.0)
       activerecord (>= 5)
@@ -286,7 +286,7 @@ GEM
       temple (>= 0.8.2)
       thor
       tilt
-    hashdiff (1.1.0)
+    hashdiff (1.1.1)
     heapy (0.2.0)
       thor
     hirb (0.7.3)
@@ -593,7 +593,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sequel (5.82.0)
+    sequel (5.83.0)
       bigdecimal
     sexp_processor (4.17.2)
     sidekiq (7.3.0)
@@ -874,4 +874,4 @@ DEPENDENCIES
   zonebie
 
 BUNDLED WITH
-   2.5.16
+   2.5.17
