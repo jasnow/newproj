@@ -61,7 +61,7 @@ gem 'sinatra'
 gem "cuprite"
 gem "danger"
 gem "database_validations"
-gem "derailed_benchmarks"
+# HID (10/6/2024: BROKEN) gem "derailed_benchmarks"
 gem "discard"
 gem "dry-effects"
 gem "dry-initializer"
