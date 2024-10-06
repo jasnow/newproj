@@ -268,13 +268,13 @@ GEM
       rchardet (~> 1.8)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.3.16)
+    graphql (2.3.17)
       base64
       fiber-storage
     graphql-connections (1.4.0)
       activerecord (>= 5)
       graphql (>= 1.10, < 3.0)
-    graphql-fragment_cache (1.20.3)
+    graphql-fragment_cache (1.20.4)
       graphql (>= 2.0.0)
       ruby-next (>= 0.15.0)
     graphql-persisted_queries (1.8.1)
@@ -370,7 +370,7 @@ GEM
     mini_mime (1.1.5)
     mini_portile2 (2.8.7)
     minitest (5.25.1)
-    msgpack (1.7.2)
+    msgpack (1.7.3)
     multipart-post (2.4.1)
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
@@ -664,7 +664,7 @@ GEM
     sqlite3 (1.7.3-x86_64-darwin)
     sqlite3 (1.7.3-x86_64-linux)
     stackprof (0.2.26)
-    standard (1.40.0)
+    standard (1.40.1)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
       rubocop (~> 1.65.0)
@@ -678,7 +678,7 @@ GEM
       rubocop-performance (~> 1.21.0)
     store_attribute (1.3.1)
       activerecord (>= 6.1)
-    store_model (4.0.0)
+    store_model (4.1.0)
       activerecord (>= 7.0)
     stringio (3.1.1)
     strings (0.2.1)
@@ -877,4 +877,4 @@ DEPENDENCIES
   zonebie
 
 BUNDLED WITH
-   2.5.20
+   2.5.21
