@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
 gem 'rails', '7.2.1'
+gem 'benchmark'
+gem 'pstore'
 
 gem "sqlite3", "~> 1.4"
 gem "puma"
