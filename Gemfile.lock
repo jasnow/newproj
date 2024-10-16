@@ -144,7 +144,7 @@ GEM
       bigdecimal
       rexml
     crass (1.0.6)
-    css_parser (1.19.0)
+    css_parser (1.19.1)
       addressable
     cuprite (0.15.1)
       capybara (~> 3.0)
@@ -349,7 +349,7 @@ GEM
     nap (1.1.0)
     net-http (0.4.1)
       uri
-    net-imap (0.4.16)
+    net-imap (0.4.17)
       date
       net-protocol
     net-pop (0.1.2)
@@ -403,7 +403,7 @@ GEM
     pwned (2.4.1)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.7)
+    rack (3.1.8)
     rack-livereload (0.5.1)
       rack
     rack-mini-profiler (3.3.1)
@@ -638,7 +638,7 @@ GEM
       unicode-display_width (>= 1.5, < 3.0)
       unicode_utils (~> 1.4)
     strings-ansi (0.2.0)
-    strong_migrations (2.0.0)
+    strong_migrations (2.0.1)
       activerecord (>= 6.1)
     strong_password (0.0.10)
     temple (0.10.3)
@@ -659,7 +659,7 @@ GEM
       pastel (~> 0.8)
       strings (~> 0.2.0)
       tty-screen (~> 0.8)
-    turbo-rails (2.0.10)
+    turbo-rails (2.0.11)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
     turbolinks (5.2.1)
