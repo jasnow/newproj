@@ -248,7 +248,7 @@ GEM
       rchardet (~> 1.8)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.4.3)
+    graphql (2.4.4)
       base64
       fiber-storage
     graphql-connections (1.4.0)
@@ -295,8 +295,8 @@ GEM
       awesome_print
       grit
       thor
-    kramdown (2.5.0)
-      rexml (>= 3.3.6)
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     language_server-protocol (3.17.0.3)
@@ -458,7 +458,7 @@ GEM
     rb-inotify (0.11.1)
       ffi (~> 1.0)
     rchardet (1.8.0)
-    rdoc (6.7.0)
+    rdoc (6.8.1)
       psych (>= 4.0.0)
     redcarpet (3.6.0)
     redis (5.3.0)
@@ -486,7 +486,7 @@ GEM
     rexml (3.3.9)
     roda (3.86.0)
       rack
-    rodauth (2.36.0)
+    rodauth (2.37.0)
       roda (>= 2.6.0)
       sequel (>= 4)
     rouge (4.5.1)
@@ -621,7 +621,7 @@ GEM
     sqlite3 (2.2.0)
       mini_portile2 (~> 2.8.0)
     stackprof (0.2.26)
-    standard (1.42.0)
+    standard (1.42.1)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
       rubocop (~> 1.68.0)
