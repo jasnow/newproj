@@ -248,7 +248,7 @@ GEM
       rchardet (~> 1.8)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.4.5)
+    graphql (2.4.6)
       base64
       fiber-storage
     graphql-connections (1.4.0)
