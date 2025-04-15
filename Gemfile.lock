@@ -255,7 +255,7 @@ GEM
       rchardet (~> 1.8)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.5.2)
+    graphql (2.5.3)
       base64
       fiber-storage
       logger
@@ -406,8 +406,8 @@ GEM
     panko_serializer (0.8.3)
       activesupport
       oj (> 3.11.0, < 4.0.0)
-    parallel (1.26.3)
-    parser (3.3.7.4)
+    parallel (1.27.0)
+    parser (3.3.8.0)
       ast (~> 2.4.1)
       racc
     password_blocklist (0.5.0)
@@ -437,7 +437,7 @@ GEM
     pwned (2.4.1)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.12)
+    rack (3.1.13)
     rack-livereload (0.6.1)
       rack (>= 3.0, < 3.2)
     rack-mini-profiler (3.3.1)
@@ -513,7 +513,7 @@ GEM
       railties (>= 5.2)
     retriable (3.1.2)
     rexml (3.4.1)
-    roda (3.90.0)
+    roda (3.91.0)
       rack
     rodauth (2.38.0)
       roda (>= 2.6.0)
@@ -533,7 +533,7 @@ GEM
       rubocop-ast (>= 1.44.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.44.0)
+    rubocop-ast (1.44.1)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     rubocop-performance (1.25.0)
@@ -863,4 +863,4 @@ DEPENDENCIES
   zonebie
 
 BUNDLED WITH
-   2.6.7
+   2.6.8
