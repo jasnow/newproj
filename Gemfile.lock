@@ -428,7 +428,7 @@ GEM
     prettyprint (0.2.0)
     prism (1.4.0)
     pstore (0.2.0)
-    psych (5.2.3)
+    psych (5.2.4)
       date
       stringio
     public_suffix (6.0.2)
@@ -521,7 +521,7 @@ GEM
     rouge (4.5.2)
     rspec-core (3.13.3)
       rspec-support (~> 3.13.0)
-    rspec-support (3.13.2)
+    rspec-support (3.13.3)
     rubocop (1.75.4)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
@@ -580,13 +580,13 @@ GEM
       rufus-scheduler (~> 3.0)
       thor
     securerandom (0.4.1)
-    selenium-webdriver (4.31.0)
+    selenium-webdriver (4.32.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sequel (5.91.0)
+    sequel (5.92.0)
       bigdecimal
     sexp_processor (4.17.3)
     sidekiq (8.0.3)
