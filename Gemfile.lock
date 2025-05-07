@@ -255,7 +255,7 @@ GEM
       rchardet (~> 1.8)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.5.5)
+    graphql (2.5.6)
       base64
       fiber-storage
       logger
@@ -270,8 +270,8 @@ GEM
       diff-lcs (~> 1.1)
       mime-types (~> 1.15)
       posix-spawn (~> 0.3.6)
-    groupdate (6.5.1)
-      activesupport (>= 7)
+    groupdate (6.6.0)
+      activesupport (>= 7.1)
     haml (6.3.0)
       temple (>= 0.8.2)
       thor
@@ -437,7 +437,7 @@ GEM
     pwned (2.4.1)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.13)
+    rack (3.1.14)
     rack-livereload (0.6.1)
       rack (>= 3.0, < 3.2)
     rack-mini-profiler (3.3.1)
@@ -446,7 +446,7 @@ GEM
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
       rack (>= 3.0.0, < 4)
-    rack-session (2.1.0)
+    rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
     rack-test (2.2.0)
@@ -522,7 +522,7 @@ GEM
     rspec-core (3.13.3)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.3)
-    rubocop (1.75.4)
+    rubocop (1.75.5)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
