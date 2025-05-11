@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    action_policy (0.7.4)
+    action_policy (0.7.5)
       ruby-next-core (>= 1.0)
     action_policy-graphql (0.6.0)
       action_policy (~> 0.7)
@@ -83,7 +83,7 @@ GEM
     after_commit_everywhere (1.6.0)
       activerecord (>= 4.2)
       activesupport
-    alba (3.6.0)
+    alba (3.7.0)
     anyway_config (2.7.2)
       ruby-next-core (~> 1.0)
     ar_lazy_preload (2.1.0)
@@ -147,9 +147,9 @@ GEM
     crass (1.0.6)
     css_parser (1.21.1)
       addressable
-    cuprite (0.15.1)
+    cuprite (0.17)
       capybara (~> 3.0)
-      ferrum (~> 0.15.0)
+      ferrum (~> 0.17.0)
     danger (9.5.1)
       base64 (~> 0.2)
       claide (~> 1.0)
@@ -206,8 +206,8 @@ GEM
     execjs (2.10.0)
     factory_bot (6.5.1)
       activesupport (>= 6.1.0)
-    faktory_worker_ruby (2.0.0)
-      connection_pool (~> 2.2, >= 2.2.2)
+    faktory_worker_ruby (2.1.1)
+      connection_pool (~> 2.5)
     faraday (2.13.1)
       faraday-net_http (>= 2.0, < 3.5)
       json
@@ -222,8 +222,9 @@ GEM
       faraday (~> 2.0)
     fattr (2.4.0)
     feature_toggles (1.2.1)
-    ferrum (0.15)
+    ferrum (0.17.1)
       addressable (~> 2.5)
+      base64 (~> 0.2)
       concurrent-ruby (~> 1.1)
       webrick (~> 1.7)
       websocket-driver (~> 0.7)
@@ -428,7 +429,7 @@ GEM
     prettyprint (0.2.0)
     prism (1.4.0)
     pstore (0.2.0)
-    psych (5.2.4)
+    psych (5.2.5)
       date
       stringio
     public_suffix (6.0.2)
@@ -669,7 +670,7 @@ GEM
     standard-performance (1.8.0)
       lint_roller (~> 1.1)
       rubocop-performance (~> 1.25.0)
-    store_attribute (2.0.0)
+    store_attribute (2.0.1)
       activerecord (>= 6.1)
     store_model (4.2.1)
       activerecord (>= 7.0)
