@@ -83,7 +83,7 @@ GEM
     after_commit_everywhere (1.6.0)
       activerecord (>= 4.2)
       activesupport
-    alba (3.7.0)
+    alba (3.7.1)
     anyway_config (2.7.2)
       ruby-next-core (~> 1.0)
     ar_lazy_preload (2.1.0)
@@ -257,7 +257,7 @@ GEM
       rchardet (~> 1.8)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.5.7)
+    graphql (2.5.8)
       base64
       fiber-storage
       logger
@@ -522,10 +522,10 @@ GEM
       roda (>= 2.6.0)
       sequel (>= 4)
     rouge (4.5.2)
-    rspec-core (3.13.3)
+    rspec-core (3.13.4)
       rspec-support (~> 3.13.0)
-    rspec-support (3.13.3)
-    rubocop (1.75.7)
+    rspec-support (3.13.4)
+    rubocop (1.75.8)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -592,7 +592,7 @@ GEM
     sequel (5.92.0)
       bigdecimal
     sexp_processor (4.17.3)
-    sidekiq (8.0.3)
+    sidekiq (8.0.4)
       connection_pool (>= 2.5.0)
       json (>= 2.9.0)
       logger (>= 1.6.2)
