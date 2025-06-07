@@ -257,14 +257,14 @@ GEM
       rchardet (~> 1.8)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.5.8)
+    graphql (2.5.9)
       base64
       fiber-storage
       logger
     graphql-connections (1.4.0)
       activerecord (>= 5)
       graphql (>= 1.10, < 3.0)
-    graphql-fragment_cache (1.22.0)
+    graphql-fragment_cache (1.22.2)
       graphql (>= 2.1.4)
     graphql-persisted_queries (1.8.1)
       graphql (>= 1.12)
@@ -674,7 +674,7 @@ GEM
       rubocop-performance (~> 1.25.0)
     store_attribute (2.0.1)
       activerecord (>= 6.1)
-    store_model (4.2.1)
+    store_model (4.2.2)
       activerecord (>= 7.0)
     stringio (3.1.7)
     strings (0.2.1)
