@@ -198,7 +198,7 @@ GEM
       concurrent-ruby (~> 1.0)
       dry-core (~> 1.1)
       zeitwerk (~> 2.6)
-    erb (5.0.1)
+    erb (5.0.2)
     erubi (1.13.1)
     et-orbi (1.2.11)
       tzinfo
@@ -289,7 +289,7 @@ GEM
       concurrent-ruby (~> 1.0)
     imgproxy (3.0.0)
       anyway_config (~> 2.6)
-    io-console (0.8.0)
+    io-console (0.8.1)
     irb (1.15.2)
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
@@ -299,7 +299,7 @@ GEM
     jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    json (2.12.2)
+    json (2.13.0)
     jwt (2.10.2)
       base64
     jwt_sessions (3.2.4)
@@ -407,7 +407,7 @@ GEM
       ostruct (>= 0.2)
     open4 (1.3.4)
     orm_adapter (0.5.0)
-    ostruct (0.6.2)
+    ostruct (0.6.3)
     panko_serializer (0.8.3)
       activesupport
       oj (> 3.11.0, < 4.0.0)
@@ -498,11 +498,11 @@ GEM
       erb
       psych (>= 4.0.0)
     redcarpet (3.6.1)
-    redis (5.4.0)
+    redis (5.4.1)
       redis-client (>= 0.22.0)
     redis-classy (2.4.1)
       redis-namespace (~> 1.0)
-    redis-client (0.25.0)
+    redis-client (0.25.1)
       connection_pool
     redis-mutex (4.0.2)
       redis-classy (~> 2.0)
@@ -520,7 +520,7 @@ GEM
       railties (>= 5.2)
     retriable (3.1.2)
     rexml (3.4.1)
-    roda (3.93.0)
+    roda (3.94.0)
       rack
     rodauth (2.39.0)
       roda (>= 2.6.0)
@@ -540,7 +540,7 @@ GEM
       rubocop-ast (>= 1.44.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.45.1)
+    rubocop-ast (1.46.0)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     rubocop-performance (1.25.0)
@@ -612,7 +612,7 @@ GEM
       docile (~> 1.1)
       simplecov-html (~> 0.11)
       simplecov_json_formatter (~> 0.1)
-    simplecov-html (0.13.1)
+    simplecov-html (0.13.2)
     simplecov_json_formatter (0.1.4)
     sinatra (4.1.1)
       logger (>= 1.6.0)
@@ -872,4 +872,4 @@ DEPENDENCIES
   zonebie
 
 BUNDLED WITH
-   2.6.9
+   2.7.0

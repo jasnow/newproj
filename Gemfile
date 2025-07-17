@@ -27,7 +27,7 @@ group :development do
   gem "web-console"
 end
 
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "tzinfo-data", platforms: [:windows, :jruby]
 
 gem "strong_password"
 gem "password_blocklist"
