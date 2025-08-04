@@ -443,9 +443,9 @@ GEM
     pwned (2.4.1)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.16)
-    rack-livereload (0.6.1)
-      rack (>= 3.0, < 3.2)
+    rack (3.2.0)
+    rack-livereload (0.5.1)
+      rack
     rack-mini-profiler (4.0.1)
       rack (>= 1.2.0)
     rack-protection (4.1.1)
@@ -510,7 +510,7 @@ GEM
       redis (>= 4)
     redlock (2.0.6)
       redis-client (>= 0.14.1, < 1.0.0)
-    regexp_parser (2.10.0)
+    regexp_parser (2.11.0)
     reline (0.6.2)
       io-console (~> 0.5)
     request_store (1.7.0)
@@ -862,7 +862,7 @@ DEPENDENCIES
   turbolinks
   tzinfo-data
   vcr
-  view_component
+  view_component (= 3.23.2)
   view_component-contrib
   web-console
   webmock
