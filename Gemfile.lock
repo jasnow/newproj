@@ -281,7 +281,7 @@ GEM
       temple (>= 0.8.2)
       thor
       tilt
-    hashdiff (1.2.0)
+    hashdiff (1.2.1)
     hirb (0.7.3)
     htmlbeautifier (1.4.3)
     htmlentities (4.3.4)
@@ -437,7 +437,7 @@ GEM
       date
       stringio
     public_suffix (6.0.2)
-    puma (7.0.0)
+    puma (7.0.2)
       nio4r (~> 2.0)
     pwned (2.4.1)
     raabro (1.4.0)
@@ -518,7 +518,7 @@ GEM
       actionpack (>= 5.2)
       railties (>= 5.2)
     retriable (3.1.2)
-    rexml (3.4.2)
+    rexml (3.4.3)
     roda (3.95.0)
       rack
     rodauth (2.40.0)
@@ -563,7 +563,7 @@ GEM
     ruby_parser (3.21.1)
       racc (~> 1.5)
       sexp_processor (~> 4.16)
-    rubyzip (3.0.2)
+    rubyzip (3.1.0)
     rufus-scheduler (3.9.2)
       fugit (~> 1.1, >= 1.11.1)
     sassc (2.4.0)
@@ -747,7 +747,7 @@ GEM
       activerecord (>= 7.0)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    yabeda (0.13.1)
+    yabeda (0.13.2)
       anyway_config (>= 1.0, < 3)
       concurrent-ruby
       dry-initializer
@@ -870,4 +870,4 @@ DEPENDENCIES
   zonebie
 
 BUNDLED WITH
-   2.7.1
+   2.7.2
