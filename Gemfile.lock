@@ -299,7 +299,7 @@ GEM
     jbuilder (2.14.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.13.2)
+    json (2.14.1)
     jwt (2.10.2)
       base64
     jwt_sessions (3.2.4)
@@ -353,7 +353,7 @@ GEM
       fattr (~> 2.4, >= 2.4.0)
       map (~> 6.6, >= 6.6.0)
     map (6.6.0)
-    marcel (1.0.4)
+    marcel (1.1.0)
     matrix (0.4.3)
     mime-types (1.25.1)
     mini_mime (1.1.5)
@@ -527,7 +527,7 @@ GEM
     rouge (4.6.0)
     rspec-core (3.13.5)
       rspec-support (~> 3.13.0)
-    rspec-support (3.13.5)
+    rspec-support (3.13.6)
     rubocop (1.80.2)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
@@ -751,7 +751,7 @@ GEM
       anyway_config (>= 1.0, < 3)
       concurrent-ruby
       dry-initializer
-    yabeda-puma-plugin (0.7.1)
+    yabeda-puma-plugin (0.8.0)
       json
       puma
       yabeda (~> 0.5)
