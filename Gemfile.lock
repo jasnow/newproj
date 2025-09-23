@@ -259,7 +259,7 @@ GEM
       rchardet (~> 1.8)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    graphql (2.5.12)
+    graphql (2.5.13)
       base64
       fiber-storage
       logger
@@ -299,7 +299,7 @@ GEM
     jbuilder (2.14.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.14.1)
+    json (2.15.0)
     jwt (2.10.2)
       base64
     jwt_sessions (3.2.4)
@@ -501,7 +501,7 @@ GEM
       redis-client (>= 0.22.0)
     redis-classy (2.4.1)
       redis-namespace (~> 1.0)
-    redis-client (0.25.3)
+    redis-client (0.26.0)
       connection_pool
     redis-mutex (4.0.2)
       redis-classy (~> 2.0)
@@ -539,7 +539,7 @@ GEM
       rubocop-ast (>= 1.46.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.47.0)
+    rubocop-ast (1.47.1)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     rubocop-performance (1.25.0)
