@@ -19,8 +19,6 @@ module Newproj
 
     config.load_defaults 7.0
 
-    config.active_support.to_time_preserves_timezone = :zone
-
     Oj.default_options = { mode: :strict }
   end
 end
