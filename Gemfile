@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'rails', '8.1.0.rc1'
+gem 'rails', '8.1.0'
 gem 'benchmark'
 gem 'pstore'
 
