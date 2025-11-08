@@ -220,8 +220,8 @@ GEM
       faraday (>= 0.8)
     faraday-multipart (1.1.1)
       multipart-post (~> 2.0)
-    faraday-net_http (3.4.1)
-      net-http (>= 0.5.0)
+    faraday-net_http (3.4.2)
+      net-http (~> 0.5)
     faraday-retry (2.3.2)
       faraday (~> 2.0)
     fattr (2.4.0)
@@ -280,7 +280,7 @@ GEM
       posix-spawn (~> 0.3.6)
     groupdate (6.7.0)
       activesupport (>= 7.1)
-    haml (7.0.1)
+    haml (7.0.2)
       temple (>= 0.8.2)
       thor
       tilt
@@ -545,7 +545,7 @@ GEM
       rubocop-ast (>= 1.46.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.47.1)
+    rubocop-ast (1.48.0)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
     rubocop-performance (1.25.0)
