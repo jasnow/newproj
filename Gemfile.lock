@@ -201,7 +201,6 @@ GEM
       concurrent-ruby (~> 1.0)
       dry-core (~> 1.1)
       zeitwerk (~> 2.6)
-    equatable (0.7.0)
     erb (6.0.0)
     erubi (1.13.1)
     et-orbi (1.4.0)
@@ -281,10 +280,6 @@ GEM
       posix-spawn (~> 0.3.6)
     groupdate (6.7.0)
       activesupport (>= 7.1)
-    haml (7.1.0)
-      temple (>= 0.8.2)
-      thor
-      tilt
     hashdiff (1.2.1)
     hirb (0.7.3)
     htmlbeautifier (1.4.3)
@@ -370,7 +365,6 @@ GEM
       ruby2_keywords (~> 0.0.1)
     n_plus_one_control (0.7.2)
     nap (1.1.0)
-    necromancer (0.7.0)
     net-http (0.8.0)
       uri (>= 0.11.1)
     net-imap (0.6.0)
@@ -421,8 +415,6 @@ GEM
       ast (~> 2.4.1)
       racc
     password_blocklist (0.5.0)
-    pastel (0.8.0)
-      tty-color (~> 0.5)
     path_expander (2.0.0)
     posix-spawn (0.3.15)
     pp (0.6.3)
@@ -633,24 +625,9 @@ GEM
       capybara (~> 3.34)
       site_prism-all_there (> 3, < 5)
     site_prism-all_there (3.0.7)
-    slim (5.2.1)
-      temple (~> 0.10.0)
-      tilt (>= 2.1.0)
     sniffer (0.5.0)
       anyway_config (>= 1.0)
       dry-initializer (~> 3)
-    spektr (0.4.1)
-      erubi
-      haml
-      parser (>= 2.6.0)
-      pastel
-      ruby_parser (>= 3.0)
-      slim
-      tty-color
-      tty-option
-      tty-spinner
-      tty-table
-      zeitwerk (>= 2.6)
     spring (4.4.0)
     sprockets (4.2.2)
       concurrent-ruby (~> 1.0)
@@ -691,7 +668,6 @@ GEM
     strong_migrations (2.5.1)
       activerecord (>= 7.1)
     strong_password (0.0.10)
-    temple (0.10.4)
     terminal-table (4.0.0)
       unicode-display_width (>= 1.1.1, < 4)
     terser (1.2.6)
@@ -700,19 +676,6 @@ GEM
     tilt (2.6.1)
     timeout (0.5.0)
     tsort (0.2.0)
-    tty-color (0.6.0)
-    tty-cursor (0.7.1)
-    tty-option (0.3.0)
-    tty-screen (0.8.2)
-    tty-spinner (0.9.3)
-      tty-cursor (~> 0.7)
-    tty-table (0.3.0)
-      equatable (~> 0.5)
-      necromancer (~> 0.3)
-      pastel (~> 0.4)
-      tty-screen (~> 0.2)
-      unicode_utils (~> 1.4.0)
-      verse (~> 0.4)
     turbo-rails (2.0.20)
       actionpack (>= 7.1.0)
       railties (>= 7.1.0)
@@ -724,13 +687,10 @@ GEM
     unicode-display_width (3.2.0)
       unicode-emoji (~> 4.1)
     unicode-emoji (4.1.0)
-    unicode_utils (1.4.0)
     uri (1.1.1)
     useragent (0.16.11)
     vcr (6.3.1)
       base64
-    verse (0.4.0)
-      unicode_utils (~> 1.4.0)
     view_component (4.1.1)
       actionview (>= 7.1.0, < 8.2)
       activesupport (>= 7.1.0, < 8.2)
@@ -858,7 +818,6 @@ DEPENDENCIES
   simplecov
   sinatra
   site_prism
-  spektr
   spring
   sqlite3
   stackprof
@@ -943,7 +902,6 @@ CHECKSUMS
   dry-inflector (1.2.0) sha256=22f5d0b50fd57074ae57e2ca17e3b300e57564c218269dcf82ff3e42d3f38f2e
   dry-initializer (3.2.0) sha256=37d59798f912dc0a1efe14a4db4a9306989007b302dcd5f25d0a2a20c166c4e3
   dry-monads (1.9.0) sha256=9348a67b5c862c7a876342dbd94737fdf3fb3c17978382cf6801a85b27215816
-  equatable (0.7.0) sha256=cd99f7bf79439dac5b34ccd33826aef0ef561029ecfa6d32a87c088a688ffe2b
   erb (6.0.0) sha256=2730893f9d8c9733f16cab315a4e4b71c1afa9cabc1a1e7ad1403feba8f52579
   erubi (1.13.1) sha256=a082103b0885dbc5ecf1172fede897f9ebdb745a4b97a5e8dc63953db1ee4ad9
   et-orbi (1.4.0) sha256=6c7e3c90779821f9e3b324c5e96fda9767f72995d6ae435b96678a4f3e2de8bc
@@ -981,7 +939,6 @@ CHECKSUMS
   graphql-persisted_queries (2.0.0) sha256=89c43df31ea95cfe6db52bcae3bb8a7af5ddf422440b352c0ba7682cda8fe4c3
   grit (2.5.0) sha256=0f6ec625d098706183d7f92f06fd8b44f1271084cff308bbee53cf1b1c5391c8
   groupdate (6.7.0) sha256=beaa8d5bf3856814681914a1d4a20e77436a2214b85d0017dc2ea5c355fb6777
-  haml (7.1.0) sha256=aed691bddcaaf4855398b3e4dd39d8590600b0f0151f4def1c2aa83bfd444248
   hashdiff (1.2.1) sha256=9c079dbc513dfc8833ab59c0c2d8f230fa28499cc5efb4b8dd276cf931457cd1
   hirb (0.7.3) sha256=5132733ca44b1f41f36c624693a3201284368a349dfe37f543ae6e2ad880ec57
   htmlbeautifier (1.4.3) sha256=b43d08f7e2aa6ae1b5a6f0607b4ed8954c8d4a8e85fd2336f975dda1e4db385b
@@ -1020,7 +977,6 @@ CHECKSUMS
   mustermann (3.0.4) sha256=85fadcb6b3c6493a8b511b42426f904b7f27b282835502233dd154daab13aa22
   n_plus_one_control (0.7.2) sha256=52b48d7085ee164a45158c35ea89955a43ed06143e6dc90f79acd18c59ff2958
   nap (1.1.0) sha256=949691660f9d041d75be611bb2a8d2fd559c467537deac241f4097d9b5eea576
-  necromancer (0.7.0) sha256=97264d6b3276f8ab81fba8eec2d34f91392c660d3076f13d5faa254146109519
   net-http (0.8.0) sha256=df42c47ce9f9e95ad32a317c97c12f945bc1af365288837ea4ff259876ecb46d
   net-imap (0.6.0) sha256=5d48bb048c85addcf0d83f6ff55be02aea111437c21d1cf3adf62b2fbe0f6cc8
   net-pop (0.1.2) sha256=848b4e982013c15b2f0382792268763b748cce91c9e91e36b0f27ed26420dff3
@@ -1046,7 +1002,6 @@ CHECKSUMS
   parallel (1.27.0) sha256=4ac151e1806b755fb4e2dc2332cbf0e54f2e24ba821ff2d3dcf86bf6dc4ae130
   parser (3.3.10.0) sha256=ce3587fa5cc55a88c4ba5b2b37621b3329aadf5728f9eafa36bbd121462aabd6
   password_blocklist (0.5.0) sha256=8904e381b8f6bb2552da36bd74f2bdcedcb942d773d1b9f9aa214f518b729265
-  pastel (0.8.0) sha256=481da9fb7d2f6e6b1a08faf11fa10363172dc40fd47848f096ae21209f805a75
   path_expander (2.0.0) sha256=8fcdb6da0a5d0214270168ab5a4e133a72375d52c7ad43d69e4e8120eeb06405
   posix-spawn (0.3.15) sha256=a2e0109bf9b9e041e74359aba9d6e9e92c1122cbdb15f6e9779d61aab606ab32
   pp (0.6.3) sha256=2951d514450b93ccfeb1df7d021cae0da16e0a7f95ee1e2273719669d0ab9df6
@@ -1127,9 +1082,7 @@ CHECKSUMS
   sinatra (4.2.1) sha256=b7aeb9b11d046b552972ade834f1f9be98b185fa8444480688e3627625377080
   site_prism (5.1) sha256=3e53d28962f2bd1d60ec492852ed1598490513fd763ec5c3210afb617972ed23
   site_prism-all_there (3.0.7) sha256=87b344fba06ddd8a21569b66558ab549226991b3c5a5076bfd2561950c5e6473
-  slim (5.2.1) sha256=72351dff7e2ff20e2d5c393cfc385bb9142cef5db059141628fd7163ac3c13e7
   sniffer (0.5.0) sha256=cd040cc51929c04749b20baa4dd8f5985174210e13437491f4923b8de27e1359
-  spektr (0.4.1) sha256=ac340572e28144c8732d3d8fe28690173c6be49b9bdc18ce9fa010f0992a9ab2
   spring (4.4.0) sha256=ec4e6cf5fb48d96b9ec9a80ebb40f962f2467b651c000693f33c14b6d6c340af
   sprockets (4.2.2) sha256=761e5a49f1c288704763f73139763564c845a8f856d52fba013458f8af1b59b1
   sprockets-rails (3.5.2) sha256=a9e88e6ce9f8c912d349aa5401509165ec42326baf9e942a85de4b76dbc4119e
@@ -1151,30 +1104,21 @@ CHECKSUMS
   stringio (3.1.9) sha256=c111af13d3a73eab96a3bc2655ecf93788d13d28cb8e25c1dcbff89ace885121
   strong_migrations (2.5.1) sha256=8bca3a9b491ec20cf1961c18050c16ac67d8b8f4e3a7c2ccf652b79638859426
   strong_password (0.0.10) sha256=3986d80cfba87467481085cf79d8d08b62e7beb39da74a7e759d987327f15486
-  temple (0.10.4) sha256=b7a1e94b6f09038ab0b6e4fe0126996055da2c38bec53a8a336f075748fff72c
   terminal-table (4.0.0) sha256=f504793203f8251b2ea7c7068333053f0beeea26093ec9962e62ea79f94301d2
   terser (1.2.6) sha256=6ddf00b93df7015b07e2b9b149e74cd70fa7aa4f0f89a15d9922a6ebd13f37ab
   thor (1.4.0) sha256=8763e822ccb0f1d7bee88cde131b19a65606657b847cc7b7b4b82e772bcd8a3d
   tilt (2.6.1) sha256=35a99bba2adf7c1e362f5b48f9b581cce4edfba98117e34696dde6d308d84770
   timeout (0.5.0) sha256=852aefd13f41d84c2d0d83099b275034c6517395884b58e635acc8847c9190cb
   tsort (0.2.0) sha256=9650a793f6859a43b6641671278f79cfead60ac714148aabe4e3f0060480089f
-  tty-color (0.6.0) sha256=6f9c37ca3a4e2367fb2e6d09722762647d6f455c111f05b59f35730eeb24332a
-  tty-cursor (0.7.1) sha256=79534185e6a777888d88628b14b6a1fdf5154a603f285f80b1753e1908e0bf48
-  tty-option (0.3.0) sha256=5a6e329d69ab35dace5fe046aa30d94bf27d6934f01e5cdb79caa1cc16c93105
-  tty-screen (0.8.2) sha256=c090652115beae764336c28802d633f204fb84da93c6a968aa5d8e319e819b50
-  tty-spinner (0.9.3) sha256=0e036f047b4ffb61f2aa45f5a770ec00b4d04130531558a94bfc5b192b570542
-  tty-table (0.3.0) sha256=fdb99bfab69f01aee44f71d52051ba1336d37fd8b7bb177bc8b74a8358f9c798
   turbo-rails (2.0.20) sha256=cbcbb4dd3ce59f6471c9f911b1655b2c721998cc8303959d982da347f374ea95
   turbolinks (5.2.1) sha256=5fea5889c4e2a78a5bd9abda3860c565342b50c6e2593697d5558a08e15cce9c
   turbolinks-source (5.2.0) sha256=362a41fa851a22b0f15cf8f944b6c7c5788f645dc1f61ae25478bb25c3bc85d4
   tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b
   unicode-display_width (3.2.0) sha256=0cdd96b5681a5949cdbc2c55e7b420facae74c4aaf9a9815eee1087cb1853c42
   unicode-emoji (4.1.0) sha256=4997d2d5df1ed4252f4830a9b6e86f932e2013fbff2182a9ce9ccabda4f325a5
-  unicode_utils (1.4.0) sha256=b922d0cf2313b6b7136ada6645ce7154ffc86418ca07d53b058efe9eb72f2a40
   uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
   useragent (0.16.11) sha256=700e6413ad4bb954bb63547fa098dddf7b0ebe75b40cc6f93b8d54255b173844
   vcr (6.3.1) sha256=37b56e157e720446a3f4d2d39919cabef8cb7b6c45936acffd2ef8229fec03ed
-  verse (0.4.0) sha256=e02110665cbfdf3ff61cbe523977d1a253539108f41547577e4f7221cc0d9f37
   view_component (4.1.1) sha256=179f63b0db1d1a8f6af635dd684456b2bcdf6b6f4da2ef276bbe0579c17b377e
   view_component-contrib (0.2.5) sha256=4a6baee5abf2a317ba333a3cdd032bcd13b0f4cbdc57628ca3c8866f159e5f8e
   warden (1.2.9) sha256=46684f885d35a69dbb883deabf85a222c8e427a957804719e143005df7a1efd0
