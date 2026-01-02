@@ -7,7 +7,7 @@ GEM
       action_policy (~> 0.7)
       graphql (>= 1.9.3)
       ruby-next-core (~> 1.0)
-    action_text-trix (2.1.15)
+    action_text-trix (2.1.16)
       railties
     actioncable (8.1.1)
       actionpack (= 8.1.1)
@@ -104,7 +104,7 @@ GEM
       tilt
     awesome_print (1.9.2)
     base64 (0.3.0)
-    bcrypt (3.1.20)
+    bcrypt (3.1.21)
     benchmark (0.5.0)
     bigdecimal (4.0.1)
     bindex (0.8.1)
@@ -525,7 +525,7 @@ GEM
     rodauth (2.42.0)
       roda (>= 2.6.0)
       sequel (>= 4)
-    rouge (4.6.1)
+    rouge (4.7.0)
     rspec-core (3.13.6)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.6)
@@ -593,7 +593,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 4.0)
       websocket (~> 1.0)
-    sequel (5.99.0)
+    sequel (5.100.0)
       bigdecimal
     sexp_processor (4.17.5)
     sidekiq (8.0.10)
@@ -843,7 +843,7 @@ DEPENDENCIES
 CHECKSUMS
   action_policy (0.7.5) sha256=1bf6a09895de2d09113f53690ce00ac0c7626ba48f0039a0e43e4e6ec149d9a2
   action_policy-graphql (0.6.0) sha256=5276ad62923f82a7968c3c911501c9bf138f08fdd18718ff3da4349fcc4832c6
-  action_text-trix (2.1.15) sha256=4bf9bbd8fa95954de3f0022dae0d927bce22c1bb31d5dc9c3766f8c145c109c1
+  action_text-trix (2.1.16) sha256=f645a2c21821b8449fd1d6770708f4031c91a2eedf9ef476e9be93c64e703a8a
   actioncable (8.1.1) sha256=7262307e9693f09b299e281590110ce4b6ba7e4e4cee6da4b9d987eaf56f9139
   actionmailbox (8.1.1) sha256=aa99703a9b2fa32c5a4a93bb21fef79e2935d8db4d1fd5ef0772847be5d43205
   actionmailer (8.1.1) sha256=45755d7d4561363490ae82b17a5919bdef4dfe3bb400831819947c3a1d82afdf
@@ -865,7 +865,7 @@ CHECKSUMS
   attractor (2.6.0) sha256=2b71691d0d8000ce96bbe7379a4ed62b0a12d07cedffcfd1a561ed9e5668852e
   awesome_print (1.9.2) sha256=e99b32b704acff16d768b3468680793ced40bfdc4537eb07e06a4be11133786e
   base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
-  bcrypt (3.1.20) sha256=8410f8c7b3ed54a3c00cd2456bf13917d695117f033218e2483b2e40b0784099
+  bcrypt (3.1.21) sha256=5964613d750a42c7ee5dc61f7b9336fb6caca429ba4ac9f2011609946e4a2dcf
   benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
   bigdecimal (4.0.1) sha256=8b07d3d065a9f921c80ceaea7c9d4ae596697295b584c296fe599dd0ad01c4a7
   bindex (0.8.1) sha256=7b1ecc9dc539ed8bccfc8cb4d2732046227b09d6f37582ff12e50a5047ceb17e
@@ -1049,7 +1049,7 @@ CHECKSUMS
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
   roda (3.99.0) sha256=05d0f44bd3431bd429f8dd799d8eb5136f04abf469776ce722d6f8c94950d42f
   rodauth (2.42.0) sha256=71ecd43af09499567d3022a2070e5aa0c5de49f7db99fb04bc7abd2602acdb20
-  rouge (4.6.1) sha256=5075346d5797d6864be93f7adc75a16047a7dbfa572c63c502419ffa582c77de
+  rouge (4.7.0) sha256=dba5896715c0325c362e895460a6d350803dbf6427454f49a47500f3193ea739
   rspec-core (3.13.6) sha256=a8823c6411667b60a8bca135364351dda34cd55e44ff94c4be4633b37d828b2d
   rspec-support (3.13.6) sha256=2e8de3702427eab064c9352fe74488cc12a1bfae887ad8b91cba480ec9f8afb2
   rubocop (1.81.7) sha256=6fb5cc298c731691e2a414fe0041a13eb1beed7bab23aec131da1bcc527af094
@@ -1071,7 +1071,7 @@ CHECKSUMS
   schked (1.3.1) sha256=dfbd16c7a9833c3d482763ee161cc15f90875cf99d20a49e73e9e0cc9cae5c24
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   selenium-webdriver (4.39.0) sha256=984a1e63d39472eaf286bac3c6f1822fa7eea6eed9c07a66ce7b3bc5417ba826
-  sequel (5.99.0) sha256=a4613a1961a47a0eb6acdcc0351fe819bf24876a88fc06172a9cee5db370ea42
+  sequel (5.100.0) sha256=cb0329b62287a01db68eead46759c14497a3fae01b174e2c41da108a9e9b4a12
   sexp_processor (4.17.5) sha256=ae2b48ba98353d5d465ce8759836b7a05f2e12c5879fcd14d7815b026de32f0e
   sidekiq (8.0.10) sha256=37ccd8da8d46f6779b8655cb30c1bfcb0decd57e890ff56d8b8252a5d9a84cd6
   sidekiq-grouping (1.3.0) sha256=23a4b75d510225bff60430a1816de0aa7986971bc5d7f7dccf0e683182498980
