@@ -19,7 +19,6 @@ group :development, :test do
   #  gem 'spring-watcher-listen' # 12/27/2021: Last version: 2016
 
   gem "standard"
-  gem "ruby_audit"
 #HID:  gem "spektr"
 end
 

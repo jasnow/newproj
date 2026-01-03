@@ -559,8 +559,6 @@ GEM
     ruby-next-core (1.1.2)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
-    ruby_audit (3.0.0)
-      bundler-audit (~> 0.9.0)
     ruby_parser (3.22.0)
       racc (~> 1.5)
       sexp_processor (~> 4.16)
@@ -807,7 +805,6 @@ DEPENDENCIES
   rodauth
   rubocop-rails
   rubocop-rspec
-  ruby_audit
   sassc-rails
   scenic
   schked
@@ -1060,7 +1057,6 @@ CHECKSUMS
   ruby-next-core (1.1.2) sha256=1b095fe2e45929f2581b3ecdb8d92b601ce4d72c12a466057c10e23b6f0c4512
   ruby-progressbar (1.13.0) sha256=80fc9c47a9b640d6834e0dc7b3c94c9df37f08cb072b7761e4a71e22cff29b33
   ruby2_keywords (0.0.5) sha256=ffd13740c573b7301cf7a2e61fc857b2a8e3d3aff32545d6f8300d8bae10e3ef
-  ruby_audit (3.0.0) sha256=e456b31bdad006de56c2479cda74eaa1515578e052b84c85667856a44ec51ad7
   ruby_parser (3.22.0) sha256=1eb4937cd9eb220aa2d194e352a24dba90aef00751e24c8dfffdb14000f15d23
   rubyzip (3.2.2) sha256=c0ed99385f0625415c8f05bcae33fe649ed2952894a95ff8b08f26ca57ea5b3c
   rufus-scheduler (3.9.2) sha256=55fa9e4db0ff69d7f38c804f17baba0c9bce5cba39984ae3c5cf6c039d1323b9
