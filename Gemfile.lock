@@ -242,7 +242,7 @@ GEM
     ffi (1.17.3-x86_64-linux-gnu)
     ffi (1.17.3-x86_64-linux-musl)
     fiber-storage (1.0.1)
-    flog (4.9.1)
+    flog (4.9.3)
       path_expander (~> 2.0)
       prism (~> 1.7)
       sexp_processor (~> 4.8)
@@ -435,7 +435,7 @@ GEM
     psych (5.3.1)
       date
       stringio
-    public_suffix (7.0.1)
+    public_suffix (7.0.2)
     puma (7.1.0)
       nio4r (~> 2.0)
     pwned (2.4.1)
@@ -924,7 +924,7 @@ CHECKSUMS
   ffi (1.17.3-x86_64-linux-gnu) sha256=3746b01f677aae7b16dc1acb7cb3cc17b3e35bdae7676a3f568153fb0e2c887f
   ffi (1.17.3-x86_64-linux-musl) sha256=086b221c3a68320b7564066f46fed23449a44f7a1935f1fe5a245bd89d9aea56
   fiber-storage (1.0.1) sha256=f48e5b6d8b0be96dac486332b55cee82240057065dc761c1ea692b2e719240e1
-  flog (4.9.1) sha256=f32421a5385878e9850156178e7db1a70c8e9f12a7c94044e62667d9d269f59b
+  flog (4.9.3) sha256=e17c656f12da446b78aa3f4c66d180dfdb7baa4abeb373e94ab468ff75e2f764
   fugit (1.12.1) sha256=5898f478ede9b415f0804e42b8f3fd53f814bd85eebffceebdbc34e1107aaf68
   fuubar (2.5.1) sha256=b272a7804b282661c7fab583a3764f92543cb482c365ae39c685cd218fdd4880
   fx (0.10.0) sha256=8dac11b8995bcff52f08d4fdf6e16246233bcfc861583476dc2b2846784431cc
@@ -1009,7 +1009,7 @@ CHECKSUMS
   process_executer (1.3.0) sha256=3b01a22d27e13204598d8f73118b5b1c3b59576969724a380b712a72edd5546f
   pstore (0.2.0) sha256=d6e5c7e8e22392235e88bbe82959059ba768a797b5bd0ebf5ac80a3311ce74a8
   psych (5.3.1) sha256=eb7a57cef10c9d70173ff74e739d843ac3b2c019a003de48447b2963d81b1974
-  public_suffix (7.0.1) sha256=92098ea5a6272d30d16cb336b20d82fcf6a8781a57b5afa26d0539190b9764b6
+  public_suffix (7.0.2) sha256=9114090c8e4e7135c1fd0e7acfea33afaab38101884320c65aaa0ffb8e26a857
   puma (7.1.0) sha256=e45c10cb124f224d448c98db653a75499794edbecadc440ad616cf50f2fd49dd
   pwned (2.4.1) sha256=e375b45e1cd78aded2c923737f75e09e64bc66582142c144bd85f4ce1fa0955d
   raabro (1.4.0) sha256=d4fa9ff5172391edb92b242eed8be802d1934b1464061ae5e70d80962c5da882
