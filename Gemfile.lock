@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    action_policy (0.7.5)
+    action_policy (0.7.6)
       ruby-next-core (>= 1.0)
     action_policy-graphql (0.6.0)
       action_policy (~> 0.7)
@@ -108,7 +108,7 @@ GEM
     benchmark (0.5.0)
     bigdecimal (4.0.1)
     bindex (0.8.1)
-    bootsnap (1.21.0)
+    bootsnap (1.21.1)
       msgpack (~> 1.2)
     brakeman (7.1.2)
       racc
@@ -412,7 +412,7 @@ GEM
       activesupport
       oj (> 3.11.0, < 4.0.0)
     parallel (1.27.0)
-    parser (3.3.10.0)
+    parser (3.3.10.1)
       ast (~> 2.4.1)
       racc
     password_blocklist (0.5.0)
@@ -529,7 +529,7 @@ GEM
     rspec-core (3.13.6)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.6)
-    rubocop (1.81.7)
+    rubocop (1.82.1)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -537,7 +537,7 @@ GEM
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
-      rubocop-ast (>= 1.47.1, < 2.0)
+      rubocop-ast (>= 1.48.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.49.0)
@@ -556,7 +556,7 @@ GEM
     rubocop-rspec (3.9.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.81)
-    ruby-next-core (1.1.2)
+    ruby-next-core (1.2.0)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
     ruby_parser (3.22.0)
@@ -647,10 +647,10 @@ GEM
     sqlite3 (2.9.0-x86_64-linux-gnu)
     sqlite3 (2.9.0-x86_64-linux-musl)
     stackprof (0.2.27)
-    standard (1.52.0)
+    standard (1.53.0)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.0)
-      rubocop (~> 1.81.7)
+      rubocop (~> 1.82.0)
       standard-custom (~> 1.0.0)
       standard-performance (~> 1.8)
     standard-custom (1.0.2)
@@ -838,7 +838,7 @@ DEPENDENCIES
   zonebie
 
 CHECKSUMS
-  action_policy (0.7.5) sha256=1bf6a09895de2d09113f53690ce00ac0c7626ba48f0039a0e43e4e6ec149d9a2
+  action_policy (0.7.6) sha256=a80156671e6b7784a2f1fa3a5f347da27c7e13abe7b1c9aab81772839794002d
   action_policy-graphql (0.6.0) sha256=5276ad62923f82a7968c3c911501c9bf138f08fdd18718ff3da4349fcc4832c6
   action_text-trix (2.1.16) sha256=f645a2c21821b8449fd1d6770708f4031c91a2eedf9ef476e9be93c64e703a8a
   actioncable (8.1.2) sha256=dc31efc34cca9cdefc5c691ddb8b4b214c0ea5cd1372108cbc1377767fb91969
@@ -866,7 +866,7 @@ CHECKSUMS
   benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
   bigdecimal (4.0.1) sha256=8b07d3d065a9f921c80ceaea7c9d4ae596697295b584c296fe599dd0ad01c4a7
   bindex (0.8.1) sha256=7b1ecc9dc539ed8bccfc8cb4d2732046227b09d6f37582ff12e50a5047ceb17e
-  bootsnap (1.21.0) sha256=27893da6347c925e5bf299034b68131bbaf5d22036d466a61d38022cb235da50
+  bootsnap (1.21.1) sha256=9373acfe732da35846623c337d3481af8ce77c7b3a927fb50e9aa92b46dbc4c4
   brakeman (7.1.2) sha256=6b04927710a2e7d13a72248b5d404c633188e02417f28f3d853e4b6370d26dce
   builder (3.3.0) sha256=497918d2f9dca528fdca4b88d84e4ef4387256d984b8154e9d5d3fe5a9c8835f
   bundler-audit (0.9.3) sha256=81c8766c71e47d0d28a0f98c7eed028539f21a6ea3cd8f685eb6f42333c9b4e9
@@ -997,7 +997,7 @@ CHECKSUMS
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   panko_serializer (0.8.4) sha256=091c189a2b03709e5fc21dec78afbbc118f46bd699ba2f43910ab58ba0e0579d
   parallel (1.27.0) sha256=4ac151e1806b755fb4e2dc2332cbf0e54f2e24ba821ff2d3dcf86bf6dc4ae130
-  parser (3.3.10.0) sha256=ce3587fa5cc55a88c4ba5b2b37621b3329aadf5728f9eafa36bbd121462aabd6
+  parser (3.3.10.1) sha256=06f6a725d2cd91e5e7f2b7c32ba143631e1f7c8ae2fb918fc4cebec187e6a688
   password_blocklist (0.5.0) sha256=8904e381b8f6bb2552da36bd74f2bdcedcb942d773d1b9f9aa214f518b729265
   path_expander (2.0.1) sha256=2de201164bff4719cc4d0b3767286e9977cc832a59c4d70abab571ec86cb41e4
   posix-spawn (0.3.15) sha256=a2e0109bf9b9e041e74359aba9d6e9e92c1122cbdb15f6e9779d61aab606ab32
@@ -1049,12 +1049,12 @@ CHECKSUMS
   rouge (4.7.0) sha256=dba5896715c0325c362e895460a6d350803dbf6427454f49a47500f3193ea739
   rspec-core (3.13.6) sha256=a8823c6411667b60a8bca135364351dda34cd55e44ff94c4be4633b37d828b2d
   rspec-support (3.13.6) sha256=2e8de3702427eab064c9352fe74488cc12a1bfae887ad8b91cba480ec9f8afb2
-  rubocop (1.81.7) sha256=6fb5cc298c731691e2a414fe0041a13eb1beed7bab23aec131da1bcc527af094
+  rubocop (1.82.1) sha256=09f1a6a654a960eda767aebea33e47603080f8e9c9a3f019bf9b94c9cab5e273
   rubocop-ast (1.49.0) sha256=49c3676d3123a0923d333e20c6c2dbaaae2d2287b475273fddee0c61da9f71fd
   rubocop-performance (1.26.1) sha256=cd19b936ff196df85829d264b522fd4f98b6c89ad271fa52744a8c11b8f71834
   rubocop-rails (2.34.3) sha256=10d37989024865ecda8199f311f3faca990143fbac967de943f88aca11eb9ad2
   rubocop-rspec (3.9.0) sha256=8fa70a3619408237d789aeecfb9beef40576acc855173e60939d63332fdb55e2
-  ruby-next-core (1.1.2) sha256=1b095fe2e45929f2581b3ecdb8d92b601ce4d72c12a466057c10e23b6f0c4512
+  ruby-next-core (1.2.0) sha256=f6a7d00bb5186cecbb02f7f1845a0f3a2c9788d35b6ccff5c9be3f0d46799b86
   ruby-progressbar (1.13.0) sha256=80fc9c47a9b640d6834e0dc7b3c94c9df37f08cb072b7761e4a71e22cff29b33
   ruby2_keywords (0.0.5) sha256=ffd13740c573b7301cf7a2e61fc857b2a8e3d3aff32545d6f8300d8bae10e3ef
   ruby_parser (3.22.0) sha256=1eb4937cd9eb220aa2d194e352a24dba90aef00751e24c8dfffdb14000f15d23
@@ -1092,7 +1092,7 @@ CHECKSUMS
   sqlite3 (2.9.0-x86_64-linux-gnu) sha256=72fff9bd750070ba3af695511ba5f0e0a2d8a9206f84869640b3e99dfaf3d5a5
   sqlite3 (2.9.0-x86_64-linux-musl) sha256=ef716ba7a66d7deb1ccc402ac3a6d7343da17fac862793b7f0be3d2917253c90
   stackprof (0.2.27) sha256=aff6d28656c852e74cf632cc2046f849033dc1dedffe7cb8c030d61b5745e80c
-  standard (1.52.0) sha256=ec050e63228e31fabe40da3ef96da7edda476f7acdf3e7c2ad47b6e153f6a076
+  standard (1.53.0) sha256=f3c9493385db7079d0abce6f7582f553122156997b81258cd361d3480eeacf9c
   standard-custom (1.0.2) sha256=424adc84179a074f1a2a309bb9cf7cd6bfdb2b6541f20c6bf9436c0ba22a652b
   standard-performance (1.9.0) sha256=49483d31be448292951d80e5e67cdcb576c2502103c7b40aec6f1b6e9c88e3f2
   store_attribute (2.1.1) sha256=de53611c01d3fb4c91e0d7af4208861bd18d017c4cee682ed0473d0e4496f5b8
@@ -1134,4 +1134,4 @@ CHECKSUMS
   zonebie (0.6.1) sha256=2762da3b5392a6a81d58ab13ae497c93e1dbdbd0c70bd8b4a9397f827be35e69
 
 BUNDLED WITH
-  4.0.3
+  4.0.4
