@@ -210,7 +210,7 @@ GEM
     execjs (2.10.0)
     factory_bot (6.5.6)
       activesupport (>= 6.1.0)
-    faktory_worker_ruby (2.1.1)
+    faktory_worker_ruby (2.1.2)
       connection_pool (~> 2.5)
     faraday (2.14.0)
       faraday-net_http (>= 2.0, < 3.5)
@@ -503,7 +503,7 @@ GEM
       redis-client (>= 0.22.0)
     redis-classy (2.4.1)
       redis-namespace (~> 1.0)
-    redis-client (0.26.3)
+    redis-client (0.26.4)
       connection_pool
     redis-mutex (4.0.2)
       redis-classy (~> 2.0)
@@ -906,7 +906,7 @@ CHECKSUMS
   evil-seed (0.7.0) sha256=55466d4a690aee82283e23acdf2c700d27264ed8f93f947338e8103c76e27747
   execjs (2.10.0) sha256=6bcb8be8f0052ff9d370b65d1c080f2406656e150452a0abdb185a133048450d
   factory_bot (6.5.6) sha256=12beb373214dccc086a7a63763d6718c49769d5606f0501e0a4442676917e077
-  faktory_worker_ruby (2.1.1) sha256=09773d04b8691c8d532c01d4eca8580354f95ad7337523b49b4accb1ab30b290
+  faktory_worker_ruby (2.1.2) sha256=06334e579062e8a21eea7021bfaf5543d9a470427f67b99c7affc9f936188146
   faraday (2.14.0) sha256=8699cfe5d97e55268f2596f9a9d5a43736808a943714e3d9a53e6110593941cd
   faraday-http-cache (2.6.1) sha256=7772ae61c5fe1c0243452dec1f069b15bcc3304e9436e4f8545ccdb5963c4285
   faraday-multipart (1.2.0) sha256=7d89a949693714176f612323ca13746a2ded204031a6ba528adee788694ef757
@@ -1035,7 +1035,7 @@ CHECKSUMS
   redcarpet (3.6.1) sha256=d444910e6aa55480c6bcdc0cdb057626e8a32c054c29e793fa642ba2f155f445
   redis (5.4.1) sha256=b5e675b57ad22b15c9bcc765d5ac26f60b675408af916d31527af9bd5a81faae
   redis-classy (2.4.1) sha256=39b02cfd10144f44b6a3c0e10f2dea560fc5c61b902fdf336706f1a7afaa01b4
-  redis-client (0.26.3) sha256=37a95ca193b7a79f350c09fe5e696dc15d1701195d559d031a107ab725effc49
+  redis-client (0.26.4) sha256=3ad70beff5da2653e02dfeae996e7d8d7147a558da12b16b2282ad345e4c7120
   redis-mutex (4.0.2) sha256=28b3de1472edf1b24938b392ef5ad1e23261371169001ce7598a75075a555245
   redis-namespace (1.11.0) sha256=e91a1aa2b2d888b6dea1d4ab8d39e1ae6fac3426161feb9d91dd5cca598a2239
   redlock (2.0.6) sha256=de262f7d7c78112435b6b356766b7733e05c452f25cf66c23b0eec1dc2893dde
