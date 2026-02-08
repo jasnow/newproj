@@ -89,7 +89,7 @@ GEM
     alba (3.10.0)
     anyway_config (2.8.0)
       ruby-next-core (~> 1.0)
-    ar_lazy_preload (2.1.0)
+    ar_lazy_preload (2.1.1)
     arrayfields (4.9.2)
     ast (2.4.3)
     attractor (2.6.0)
@@ -167,7 +167,7 @@ GEM
       octokit (>= 4.0)
       pstore (~> 0.1)
       terminal-table (>= 1, < 5)
-    database_validations (1.1.1)
+    database_validations (1.2.0)
       activerecord (>= 4.2.0)
     date (3.5.1)
     descriptive_statistics (2.5.1)
@@ -212,7 +212,7 @@ GEM
       activesupport (>= 6.1.0)
     faktory_worker_ruby (2.1.2)
       connection_pool (~> 2.5)
-    faraday (2.14.0)
+    faraday (2.14.1)
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
@@ -262,7 +262,7 @@ GEM
       rchardet (~> 1.8)
     globalid (1.3.0)
       activesupport (>= 6.1)
-    graphql (2.5.18)
+    graphql (2.5.19)
       base64
       fiber-storage
       logger
@@ -403,7 +403,7 @@ GEM
     octokit (10.0.0)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
-    oj (3.16.13)
+    oj (3.16.15)
       bigdecimal (>= 3.0)
       ostruct (>= 0.2)
     open4 (1.3.4)
@@ -662,7 +662,7 @@ GEM
       rubocop-performance (~> 1.26.0)
     store_attribute (2.1.1)
       activerecord (>= 7.2)
-    store_model (4.4.0)
+    store_model (4.5.0)
       activerecord (>= 7.0)
     stringio (3.2.0)
     strong_migrations (2.5.2)
@@ -857,7 +857,7 @@ CHECKSUMS
   after_commit_everywhere (1.6.0) sha256=c8b3409a1172e43070d2e57f4b9d7b89dce5a7f057576b748cb9fe0a0dd4d917
   alba (3.10.0) sha256=52769d2328da35c4f1bbcfe96b3931b9c8595667307a902573868b1cf6d65d79
   anyway_config (2.8.0) sha256=f6797a7231f81202dcd3d0c07284e836e45713e761d320180348b13a5c7c9306
-  ar_lazy_preload (2.1.0) sha256=03effc2aac5aef2a1be8ff3ed4bb60f4e92e57f192dde61750bd8ea2131ad517
+  ar_lazy_preload (2.1.1) sha256=47b8240fd1bdceb9a6b66f756cfdda6292bc213edf5a8be5f37299077ae7a734
   arrayfields (4.9.2) sha256=1593f0bac948e24aa5e5099b7994b0fb5da69b6f29a82804ccf496bc125de4ab
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
   attractor (2.6.0) sha256=2b71691d0d8000ce96bbe7379a4ed62b0a12d07cedffcfd1a561ed9e5668852e
@@ -886,7 +886,7 @@ CHECKSUMS
   css_parser (1.21.1) sha256=6cfd3ffc0a97333b39d2b1b49c95397b05e0e3b684d68f77ec471ba4ec2ef7c7
   cuprite (0.17) sha256=b140d5dc70d08b97ad54bcf45cd95d0bd430e291e9dffe76fff851fddd57c12b
   danger (9.5.3) sha256=d1dc33cdebd20651f06b55dbdd249e6346ad21b2a908baef6af6b22ba43aaa36
-  database_validations (1.1.1) sha256=7b2155827506d2e55555050691b6726445b489e82ca51237f18151678c06600a
+  database_validations (1.2.0) sha256=6cab5fd8c133e972780a8929ca38a3aede05201eff9ec7329cf3fe4f5f2f0a09
   date (3.5.1) sha256=750d06384d7b9c15d562c76291407d89e368dda4d4fff957eb94962d325a0dc0
   descriptive_statistics (2.5.1) sha256=1b8f9a38ca9554bd791d053c265d364ed7abebd10f7aeb7d2b04c8bda0db29fb
   devise (4.9.4) sha256=920042fe5e704c548aa4eb65ebdd65980b83ffae67feb32c697206bfd975a7f8
@@ -907,7 +907,7 @@ CHECKSUMS
   execjs (2.10.0) sha256=6bcb8be8f0052ff9d370b65d1c080f2406656e150452a0abdb185a133048450d
   factory_bot (6.5.6) sha256=12beb373214dccc086a7a63763d6718c49769d5606f0501e0a4442676917e077
   faktory_worker_ruby (2.1.2) sha256=06334e579062e8a21eea7021bfaf5543d9a470427f67b99c7affc9f936188146
-  faraday (2.14.0) sha256=8699cfe5d97e55268f2596f9a9d5a43736808a943714e3d9a53e6110593941cd
+  faraday (2.14.1) sha256=a43cceedc1e39d188f4d2cdd360a8aaa6a11da0c407052e426ba8d3fb42ef61c
   faraday-http-cache (2.6.1) sha256=7772ae61c5fe1c0243452dec1f069b15bcc3304e9436e4f8545ccdb5963c4285
   faraday-multipart (1.2.0) sha256=7d89a949693714176f612323ca13746a2ded204031a6ba528adee788694ef757
   faraday-net_http (3.4.2) sha256=f147758260d3526939bf57ecf911682f94926a3666502e24c69992765875906c
@@ -931,7 +931,7 @@ CHECKSUMS
   fx (0.10.0) sha256=8dac11b8995bcff52f08d4fdf6e16246233bcfc861583476dc2b2846784431cc
   git (2.3.3) sha256=2e154f5f905185265cdd6836556e9ae79d1730d0b4572bf537f6bfbfbf7770e5
   globalid (1.3.0) sha256=05c639ad6eb4594522a0b07983022f04aa7254626ab69445a0e493aa3786ff11
-  graphql (2.5.18) sha256=857dc1945e014932077eb7aedf4d4c1b086810faa3c829ffdbd74813ee294120
+  graphql (2.5.19) sha256=6c70cf41cbe7d02921fb679229689d181768a45a2a7cc2f39b240cdf3a5fa299
   graphql-connections (1.4.0) sha256=3ba170f009c25d326d68d7bce7474c5d4a1ac334c19ebb8ea5633df36ba7d164
   graphql-fragment_cache (1.22.2) sha256=80ae0e3dc4cea43a231a92bb4c0f81cc9e94b806bf52fe32cefdba0ad0468403
   graphql-persisted_queries (2.0.0) sha256=89c43df31ea95cfe6db52bcae3bb8a7af5ddf422440b352c0ba7682cda8fe4c3
@@ -992,7 +992,7 @@ CHECKSUMS
   nokogiri (1.19.0-x86_64-linux-gnu) sha256=f482b95c713d60031d48c44ce14562f8d2ce31e3a9e8dd0ccb131e9e5a68b58c
   nokogiri (1.19.0-x86_64-linux-musl) sha256=1c4ca6b381622420073ce6043443af1d321e8ed93cc18b08e2666e5bd02ffae4
   octokit (10.0.0) sha256=82e99a539b7637b7e905e6d277bb0c1a4bed56735935cc33db6da7eae49a24e8
-  oj (3.16.13) sha256=b114bcb83ef884f1736b3112108f77cf9ca90aa8111a775318cc5d7a6a1e0303
+  oj (3.16.15) sha256=4d3324cac3e8fef54c0fa250b2af26a16dadd9f9788a1d6b1b2098b793a1b2cd
   open4 (1.3.4) sha256=a1df037310624ecc1ea1d81264b11c83e96d0c3c1c6043108d37d396dcd0f4b1
   orm_adapter (0.5.0) sha256=aa5d0be5d540cbb46d3a93e88061f4ece6a25f6e97d6a47122beb84fe595e9b9
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
@@ -1097,7 +1097,7 @@ CHECKSUMS
   standard-custom (1.0.2) sha256=424adc84179a074f1a2a309bb9cf7cd6bfdb2b6541f20c6bf9436c0ba22a652b
   standard-performance (1.9.0) sha256=49483d31be448292951d80e5e67cdcb576c2502103c7b40aec6f1b6e9c88e3f2
   store_attribute (2.1.1) sha256=de53611c01d3fb4c91e0d7af4208861bd18d017c4cee682ed0473d0e4496f5b8
-  store_model (4.4.0) sha256=44eb98d8c81f885bb0f69c10383d8069f9ffe089e42aad22f5b331322170a4e0
+  store_model (4.5.0) sha256=2aa0790daaf254144d9232f2b301009e954a3ca3719e87732a7ef8195c6bec38
   stringio (3.2.0) sha256=c37cb2e58b4ffbd33fe5cd948c05934af997b36e0b6ca6fdf43afa234cf222e1
   strong_migrations (2.5.2) sha256=06faff4782b24c8a0a4b1a5a1613d809339ff26c5ac135fde75a932a5c9b454e
   strong_password (0.0.10) sha256=3986d80cfba87467481085cf79d8d08b62e7beb39da74a7e759d987327f15486
@@ -1135,4 +1135,4 @@ CHECKSUMS
   zonebie (0.6.1) sha256=2762da3b5392a6a81d58ab13ae497c93e1dbdbd0c70bd8b4a9397f827be35e69
 
 BUNDLED WITH
-  4.0.5
+  4.0.6
