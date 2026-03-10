@@ -262,7 +262,7 @@ GEM
       rchardet (~> 1.8)
     globalid (1.3.0)
       activesupport (>= 6.1)
-    graphql (2.5.20)
+    graphql (2.5.21)
       base64
       fiber-storage
       logger
@@ -299,7 +299,7 @@ GEM
     jbuilder (2.14.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.19.0)
+    json (2.19.1)
     jwt (2.10.2)
       base64
     jwt_sessions (3.2.4)
@@ -423,7 +423,7 @@ GEM
     posix-spawn (0.3.15)
     pp (0.6.3)
       prettyprint
-    premailer (1.28.0)
+    premailer (1.29.0)
       addressable
       css_parser (>= 1.19.0)
       htmlentities (>= 4.0.0)
@@ -521,7 +521,7 @@ GEM
     responders (3.2.0)
       actionpack (>= 7.0)
       railties (>= 7.0)
-    retriable (3.3.0)
+    retriable (3.4.1)
     rexml (3.4.4)
     roda (3.101.0)
       rack
@@ -676,7 +676,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     thor (1.5.0)
     tilt (2.7.0)
-    timeout (0.6.0)
+    timeout (0.6.1)
     tsort (0.2.0)
     turbo-rails (2.0.23)
       actionpack (>= 7.1.0)
@@ -932,7 +932,7 @@ CHECKSUMS
   fx (0.10.2) sha256=ab23b12b795a98ce148eb2ddab3da406ca1e903a4a329c1d19cb5f61947fddfb
   git (2.3.3) sha256=2e154f5f905185265cdd6836556e9ae79d1730d0b4572bf537f6bfbfbf7770e5
   globalid (1.3.0) sha256=05c639ad6eb4594522a0b07983022f04aa7254626ab69445a0e493aa3786ff11
-  graphql (2.5.20) sha256=f5fe10d5cad95b50c73243ef18ee9a125a920a5a265dde637b410c3ce2014c32
+  graphql (2.5.21) sha256=9069249c2ef007409c0b7ae49f95b8f25e108f731b8859499ad090edd529f337
   graphql-connections (1.4.0) sha256=3ba170f009c25d326d68d7bce7474c5d4a1ac334c19ebb8ea5633df36ba7d164
   graphql-fragment_cache (1.22.2) sha256=80ae0e3dc4cea43a231a92bb4c0f81cc9e94b806bf52fe32cefdba0ad0468403
   graphql-persisted_queries (2.0.0) sha256=89c43df31ea95cfe6db52bcae3bb8a7af5ddf422440b352c0ba7682cda8fe4c3
@@ -948,7 +948,7 @@ CHECKSUMS
   irb (1.17.0) sha256=168c4ddb93d8a361a045c41d92b2952c7a118fa73f23fe14e55609eb7a863aae
   isolator (1.2.0) sha256=95ee425977ee496b0e21dddaa9c5edf0ec6cb228c10bb2648d144ef7db9e4da3
   jbuilder (2.14.1) sha256=4eb26376ff60ef100cb4fd6fd7533cd271f9998327e86adf20fd8c0e69fabb42
-  json (2.19.0) sha256=bc5202f083618b3af7aba3184146ec9d820f8f6de261838b577173475e499d9a
+  json (2.19.1) sha256=dd94fdc59e48bff85913829a32350b3148156bc4fd2a95a2568a78b11344082d
   jwt (2.10.2) sha256=31e1ee46f7359883d5e622446969fe9c118c3da87a0b1dca765ce269c3a0c4f4
   jwt_sessions (3.2.4) sha256=d0814cc2d8cd5e6ff4461f32311c3a1004d4297f33b188bbd2eac426e8e73e55
   karo (2.3.0) sha256=653978d177cff20a213ccd1c738b8b159503df085c4221c5ccdbb1eab420c85f
@@ -1004,7 +1004,7 @@ CHECKSUMS
   path_expander (2.0.1) sha256=2de201164bff4719cc4d0b3767286e9977cc832a59c4d70abab571ec86cb41e4
   posix-spawn (0.3.15) sha256=a2e0109bf9b9e041e74359aba9d6e9e92c1122cbdb15f6e9779d61aab606ab32
   pp (0.6.3) sha256=2951d514450b93ccfeb1df7d021cae0da16e0a7f95ee1e2273719669d0ab9df6
-  premailer (1.28.0) sha256=02c63f31ad73a32dd5d4ca42f70c70d192553d21822028ed51ad9b6d0d96d844
+  premailer (1.29.0) sha256=015f30c520701f3d47fd898886a3eaf4e5171efcc5fd239b872efd1ba61d3da0
   premailer-rails (1.12.0) sha256=c13815d161b9bc7f7d3d81396b0bb0a61a90fa9bd89931548bf4e537c7710400
   prettyprint (0.2.0) sha256=2bc9e15581a94742064a3cc8b0fb9d45aae3d03a1baa6ef80922627a0766f193
   prism (1.9.0) sha256=7b530c6a9f92c24300014919c9dcbc055bf4cdf51ec30aed099b06cd6674ef85
@@ -1044,7 +1044,7 @@ CHECKSUMS
   reline (0.6.3) sha256=1198b04973565b36ec0f11542ab3f5cfeeec34823f4e54cebde90968092b1835
   request_store (1.7.0) sha256=e1b75d5346a315f452242a68c937ef8e48b215b9453a77a6c0acdca2934c88cb
   responders (3.2.0) sha256=89c2d6ac0ae16f6458a11524cae4a8efdceba1a3baea164d28ee9046bd3df55a
-  retriable (3.3.0) sha256=b6a5a4000a0dc04fcbea0976d5af3bf62c142e8d2d5c85191369ed9ff8bdfe11
+  retriable (3.4.1) sha256=fb3f114b7d492121c158c01f3d5152b5a615c5b70d5877d0bc08c7ec3725c3bc
   rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
   roda (3.101.0) sha256=07b13bb5fbb8f606c17f8c21ae4897f629e59cb6f398665da6666920efd39843
   rodauth (2.42.0) sha256=71ecd43af09499567d3022a2070e5aa0c5de49f7db99fb04bc7abd2602acdb20
@@ -1106,7 +1106,7 @@ CHECKSUMS
   terser (1.2.6) sha256=6ddf00b93df7015b07e2b9b149e74cd70fa7aa4f0f89a15d9922a6ebd13f37ab
   thor (1.5.0) sha256=e3a9e55fe857e44859ce104a84675ab6e8cd59c650a49106a05f55f136425e73
   tilt (2.7.0) sha256=0d5b9ba69f6a36490c64b0eee9f6e9aad517e20dcc848800a06eb116f08c6ab3
-  timeout (0.6.0) sha256=6d722ad619f96ee383a0c557ec6eb8c4ecb08af3af62098a0be5057bf00de1af
+  timeout (0.6.1) sha256=78f57368a7e7bbadec56971f78a3f5ecbcfb59b7fcbb0a3ed6ddc08a5094accb
   tsort (0.2.0) sha256=9650a793f6859a43b6641671278f79cfead60ac714148aabe4e3f0060480089f
   turbo-rails (2.0.23) sha256=ee0d90733aafff056cf51ff11e803d65e43cae258cc55f6492020ec1f9f9315f
   turbolinks (5.2.1) sha256=5fea5889c4e2a78a5bd9abda3860c565342b50c6e2593697d5558a08e15cce9c
