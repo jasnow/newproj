@@ -730,7 +730,7 @@ GEM
       sidekiq
       yabeda (~> 0.6)
     yard (0.9.43)
-    zeitwerk (2.8.1)
+    zeitwerk (2.8.2)
     zonebie (0.6.1)
 
 PLATFORMS
@@ -1129,7 +1129,7 @@ CHECKSUMS
   yabeda-puma-plugin (0.9.0) sha256=b78673ecc7ee30bc50691ddc41b7022c1c1801843900d5101418f4a14b550bc8
   yabeda-sidekiq (0.12.0) sha256=04a7e281b16a56122f3a2ed377d03e3d69c37ecac0e62f0b0a808a3c58cf5d90
   yard (0.9.43) sha256=cf8733a8f0485df2a162927e9b5f182215a61f6d22de096b8f402c726a1c5821
-  zeitwerk (2.8.1) sha256=1c85e0f28954d68cd16e575da37f26846f609b68d80b5942ccfd31030c2449d5
+  zeitwerk (2.8.2) sha256=7212a61311083c604184b1ea2574b9aa05cd14f855a0841c06985cabe9181d12
   zonebie (0.6.1) sha256=2762da3b5392a6a81d58ab13ae497c93e1dbdbd0c70bd8b4a9397f827be35e69
 
 BUNDLED WITH
