@@ -261,7 +261,7 @@ GEM
       addressable (~> 2.8)
       process_executer (~> 4.0)
       rchardet (~> 1.9)
-    globalid (1.3.0)
+    globalid (1.4.0)
       activesupport (>= 6.1)
     graphql (2.6.3)
       base64
@@ -300,7 +300,7 @@ GEM
     jbuilder (2.15.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.19.9)
+    json (2.20.0)
     jwt (2.10.3)
       base64
     jwt_sessions (3.2.4)
@@ -420,7 +420,7 @@ GEM
     password_blocklist (0.5.0)
     path_expander (2.0.1)
     posix-spawn (0.3.15)
-    pp (0.6.3)
+    pp (0.6.4)
       prettyprint
     premailer (1.29.0)
       addressable
@@ -631,7 +631,7 @@ GEM
     sniffer (0.5.0)
       anyway_config (>= 1.0)
       dry-initializer (~> 3)
-    spring (4.6.0)
+    spring (4.7.0)
     sprockets (4.2.2)
       concurrent-ruby (~> 1.0)
       logger
@@ -714,7 +714,7 @@ GEM
       hashdiff (>= 0.4.0, < 2.0.0)
     webrick (1.9.2)
     websocket (1.2.11)
-    websocket-driver (0.8.1)
+    websocket-driver (0.8.2)
       base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -934,7 +934,7 @@ CHECKSUMS
   fuubar (2.5.1) sha256=b272a7804b282661c7fab583a3764f92543cb482c365ae39c685cd218fdd4880
   fx (0.11.0) sha256=537f2c0359b54da8b17574acaedcaecea806ead14dcd9239a16f70ee66c70f7d
   git (4.3.2) sha256=a3b0706573bb8cdd9edc630c33e2611ca5cbdece086f7c142bef73bc38522907
-  globalid (1.3.0) sha256=05c639ad6eb4594522a0b07983022f04aa7254626ab69445a0e493aa3786ff11
+  globalid (1.4.0) sha256=037f12fbf1d9d7a014d501c2d5c77356fd4ddd96d7a7991d6700bba96706f427
   graphql (2.6.3) sha256=31fe845b509fda27db38d09380f27ffc0de1c7ea2f9f3b12fa42bdde8317239b
   graphql-connections (1.4.0) sha256=3ba170f009c25d326d68d7bce7474c5d4a1ac334c19ebb8ea5633df36ba7d164
   graphql-fragment_cache (1.22.2) sha256=80ae0e3dc4cea43a231a92bb4c0f81cc9e94b806bf52fe32cefdba0ad0468403
@@ -951,7 +951,7 @@ CHECKSUMS
   irb (1.18.0) sha256=de9454a0703a54704b9811a5ef31a60c86949fbf4013fcf244fabc7c775248e3
   isolator (1.2.0) sha256=95ee425977ee496b0e21dddaa9c5edf0ec6cb228c10bb2648d144ef7db9e4da3
   jbuilder (2.15.1) sha256=2430bec28fb0cebacb5875b1009cf9d8bc3c303ccb810c4c8b062a4b51457637
-  json (2.19.9) sha256=9b9025b7cdddafa38d316eca0b2358488e42d417045c1b90d216a9fefe46b79a
+  json (2.20.0) sha256=9362bc6e55a952b056abf9167cf053358181c904cb70cd6eee0808ea830fc32b
   jwt (2.10.3) sha256=e4d9352fbc7309b1a7448c7dd713dfe4d8c47077af80759cdbed8f878ea0b484
   jwt_sessions (3.2.4) sha256=d0814cc2d8cd5e6ff4461f32311c3a1004d4297f33b188bbd2eac426e8e73e55
   karo (2.3.0) sha256=653978d177cff20a213ccd1c738b8b159503df085c4221c5ccdbb1eab420c85f
@@ -1006,7 +1006,7 @@ CHECKSUMS
   password_blocklist (0.5.0) sha256=8904e381b8f6bb2552da36bd74f2bdcedcb942d773d1b9f9aa214f518b729265
   path_expander (2.0.1) sha256=2de201164bff4719cc4d0b3767286e9977cc832a59c4d70abab571ec86cb41e4
   posix-spawn (0.3.15) sha256=a2e0109bf9b9e041e74359aba9d6e9e92c1122cbdb15f6e9779d61aab606ab32
-  pp (0.6.3) sha256=2951d514450b93ccfeb1df7d021cae0da16e0a7f95ee1e2273719669d0ab9df6
+  pp (0.6.4) sha256=dfcb0fce700c41456265922884f9fe195d7fbb0674a3578e6c0f69588e82b570
   premailer (1.29.0) sha256=015f30c520701f3d47fd898886a3eaf4e5171efcc5fd239b872efd1ba61d3da0
   premailer-rails (1.12.0) sha256=c13815d161b9bc7f7d3d81396b0bb0a61a90fa9bd89931548bf4e537c7710400
   prettyprint (0.2.0) sha256=2bc9e15581a94742064a3cc8b0fb9d45aae3d03a1baa6ef80922627a0766f193
@@ -1083,7 +1083,7 @@ CHECKSUMS
   site_prism (6.0) sha256=620e06cc0c4dba66554d3a89c8fd49d121b0cb97905198db1bd590c3ddaec3e4
   site_prism-all_there (3.0.9) sha256=3d9e0b722fa62a3553589130dea23fa50c99dc80f108c851d7480d341d83f4f6
   sniffer (0.5.0) sha256=cd040cc51929c04749b20baa4dd8f5985174210e13437491f4923b8de27e1359
-  spring (4.6.0) sha256=e9e41f9a56fa5f111df7c85110a7d606ca731dc116c906ba395fd74c9fd474e3
+  spring (4.7.0) sha256=f81bf6d41f05518ed5d0128ce5c75fb6dd9c6153f158129c8b85c4461ca0b72c
   sprockets (4.2.2) sha256=761e5a49f1c288704763f73139763564c845a8f856d52fba013458f8af1b59b1
   sprockets-rails (3.5.2) sha256=a9e88e6ce9f8c912d349aa5401509165ec42326baf9e942a85de4b76dbc4119e
   sqlite3 (2.9.5) sha256=04572973a3f943ad50a8adfffc8dd752a5f06e4c3db2026f71838fed8a982606
@@ -1128,7 +1128,7 @@ CHECKSUMS
   webmock (3.26.2) sha256=774556f2ea6371846cca68c01769b2eac0d134492d21f6d0ab5dd643965a4c90
   webrick (1.9.2) sha256=beb4a15fc474defed24a3bda4ffd88a490d517c9e4e6118c3edce59e45864131
   websocket (1.2.11) sha256=b7e7a74e2410b5e85c25858b26b3322f29161e300935f70a0e0d3c35e0462737
-  websocket-driver (0.8.1) sha256=5ab238238ce230e5d4b262d2be39624c867914eab99171dc4952b58b577c2d96
+  websocket-driver (0.8.2) sha256=97c556b019bf3410b4961002ac501621e9322d3f8a7bc02161a09301cc4c4146
   websocket-extensions (0.1.5) sha256=1c6ba63092cda343eb53fc657110c71c754c56484aad42578495227d717a8241
   with_model (2.2.0) sha256=eb0f498752391917e8c0a990951a343756bb89df2d12190faa5915a3fd99277e
   xpath (3.2.0) sha256=6dfda79d91bb3b949b947ecc5919f042ef2f399b904013eb3ef6d20dd3a4082e
@@ -1140,4 +1140,4 @@ CHECKSUMS
   zonebie (0.6.1) sha256=2762da3b5392a6a81d58ab13ae497c93e1dbdbd0c70bd8b4a9397f827be35e69
 
 BUNDLED WITH
-  4.0.14
+  4.0.15
