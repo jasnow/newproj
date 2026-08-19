@@ -18,7 +18,7 @@ group :development, :test do
   gem "spring"
   #  gem 'spring-watcher-listen' # 12/27/2021: Last version: 2016
 
-  gem "standard"
+  gem "standard", ">= 1.35.1"
 #HID:  gem "spektr"
 end
 
