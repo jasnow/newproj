@@ -86,7 +86,7 @@ GEM
     after_commit_everywhere (1.6.0)
       activerecord (>= 4.2)
       activesupport
-    alba (4.0.0)
+    alba (4.0.1)
     anyway_config (2.8.1)
       ruby-next-core (~> 1.0)
     ar_lazy_preload (2.1.2)
@@ -863,7 +863,7 @@ CHECKSUMS
   activesupport (8.1.4) sha256=891dd3fe43c4fc8391934b237b1189bb1f661c932a84a840043db9d46a4e80df
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
   after_commit_everywhere (1.6.0) sha256=c8b3409a1172e43070d2e57f4b9d7b89dce5a7f057576b748cb9fe0a0dd4d917
-  alba (4.0.0) sha256=7cc35b520e51f9532e930b75af2a7915bfae48077221d858f122fc7e27e96572
+  alba (4.0.1) sha256=f7182a4b630e119d3eabca38e37098a9843b1a103206fe9f6f3a9ba16324a5f0
   anyway_config (2.8.1) sha256=541842b25117fac3e277670c32dc09d3b715b20404826a6538ac35527583624f
   ar_lazy_preload (2.1.2) sha256=43bb0140ada85c1d605d4430db4d9af40e8e3c5e0aed774eeaefaa95256677c2
   arrayfields (4.9.2) sha256=1593f0bac948e24aa5e5099b7994b0fb5da69b6f29a82804ccf496bc125de4ab
